@@ -1,0 +1,28 @@
+{
+  "name": "webpack",
+  "version": "0.0.1",
+  "author": "srigi",
+  "scripts": {
+    "env": "env",
+    "clean": "rm -rf dist/*",
+    "prebuild:dev": "npm run clean",
+    "build:dev": "webpack --debug --devtool source-map --progress",
+    "server:dev": "webpack-dev-server --content-base public --debug --devtool source-map --port 8000 --progress"
+  },
+  "dependencies": {
+    "react": "^0.12.2"
+  },
+  "devDependencies": {
+    "babel-core": "^4.7.3",
+    "babel-loader": "^4.1.0",
+    "babel-runtime": "^4.7.3",
+    "css-loader": "^0.9.1",
+    "file-loader": "^0.8.1",
+    "less": "^2.4.0",
+    "less-loader": "^2.1.0",
+    "style-loader": "^0.8.3",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.7.2",
+    "webpack-dev-server": "^1.7.0"
+  }
+}

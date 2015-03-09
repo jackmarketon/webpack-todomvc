@@ -1,0 +1,38 @@
+{
+  "folders": [
+    {
+      "name": "/",
+      "path": ".",
+      "file_exclude_patterns": [
+        "*.sublime-workspace"
+      ],
+      "folder_exclude_patterns": [
+        "bower_components",
+        "dist",
+        "node_modules",
+        "public",
+        "src"
+      ]
+    },
+
+    {
+      "path": "bower_components"
+    },
+
+    {
+      "path": "node_modules"
+    },
+
+    {
+      "path": "dist"
+    },
+
+    {
+      "path": "public"
+    },
+
+    {
+      "path": "src"
+    }
+  ]
+}
