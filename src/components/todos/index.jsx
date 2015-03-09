@@ -2,6 +2,8 @@
 
 import React from 'react';
 
+import TodoItem from '../todoItem';
+
 
 export default React.createClass({
   displayName: 'Todos',
@@ -11,13 +13,13 @@ export default React.createClass({
   },
 
   render() {
-    var todos = this.state.todos.map((todo) => {
-      return <li>{todo.text} {(todo.done) ? '✓':'✗'}</li>;
+    var todos = this.state.todos.map((todo, idx) => {
+      return <TodoItem todo={todo} key={idx} />;
     });
 
     return (
       <div className="well">
-        <ul>{todos}</ul>
+        {todos}
       </div>
     );
   }
