@@ -10,6 +10,7 @@
     "server:dev": "webpack-dev-server --content-base public --debug --devtool source-map --port 8000 --progress"
   },
   "dependencies": {
+    "flux": "^2.0.1",
     "react": "^0.12.2"
   },
   "devDependencies": {
