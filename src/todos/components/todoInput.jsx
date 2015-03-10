@@ -2,6 +2,8 @@
 
 import React from 'react';
 
+import './todoInput.less';
+
 const RETURN_KEY_CODE = 13;
 
 
@@ -33,18 +35,17 @@ var TodoInput = React.createClass({
 
   render() {
     return (
-      <div className="form-inline">
-        <div className="form-group">
-          <input
-            className="form-control"
-            onBlur={this.save}
-            onChange={this.onChange}
-            onKeyDown={this.onKeyDown}
-            value={this.state.value}
-            autoFocus={true}
-          />
-          <button className="btn btn-info" onClick={this.save}>save</button>
-        </div>
+      <div className="todo-input">
+        <input
+          type="text"
+          className="form-control"
+          value={this.state.value}
+          onBlur={this.save}
+          onChange={this.onChange}
+          onKeyDown={this.onKeyDown}
+          autoFocus={true}
+        />
+        <button onClick={this.save} className="btn btn-info">save</button>
       </div>
     );
   }

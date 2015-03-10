@@ -44,14 +44,12 @@ var TodoItem = React.createClass({
           </label>
         </div>
 
-        <div className="pull-right">
-          <button type="button" className="btn btn-info btn-sm">
-            <i className="glyphicon glyphicon-pencil"></i>
-          </button>
-          <button type="button" className="btn btn-warning btn-sm">
-            <i className="glyphicon glyphicon-remove"></i>
-          </button>
-        </div>
+        <button type="button" className="todo-item-action btn btn-danger btn-sm">
+          <i className="glyphicon glyphicon-remove"></i>
+        </button>
+        <button type="button" className="todo-item-action btn btn-info btn-sm">
+          <i className="glyphicon glyphicon-pencil"></i>
+        </button>
       </div>
     );
   }

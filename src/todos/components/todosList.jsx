@@ -4,6 +4,8 @@ import React from 'react';
 
 import TodoItem from './todoItem';
 
+import './todosList.less';
+
 
 var TodosList = React.createClass({
   render() {
@@ -12,7 +14,7 @@ var TodosList = React.createClass({
     });
 
     return (
-      <div className="todos-list well">
+      <div className="todos-list">
         {todos}
       </div>
     );

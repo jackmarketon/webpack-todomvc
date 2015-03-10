@@ -1,6 +1,24 @@
+@import "../../../bower_components/bootstrap/less/variables.less";
 @import "../../../bower_components/bootstrap/less/mixins.less";
+@import "../../../bower_components/bootstrap/less/utilities.less";
 
 
 .todo-item {
   .clearfix();
+  border-bottom: 1px solid #e0e0e0;
+  padding-left: 1em;
+  padding-right: 1em;
+  &:first-child {
+    border-top: 1px solid #e0e0e0;
+  }
+
+  .todo-item-action {
+    .opacity(0.5);
+    .pull-right();
+    margin-top: 8px;
+    margin-left: 3px;
+    &:hover {
+      .opacity(1);
+    }
+  }
 }
