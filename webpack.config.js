@@ -17,10 +17,10 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.css$/,
-        loaders: ['style', 'css']},
+        loaders: ['style', 'css?sourceMap']},
 
       { test: /\.less$/,
-        loaders: ['style', 'css', 'less']},
+        loaders: ['style', 'css?sourceMap', 'less']},
 
       { test: /\.(jsx|js)$/,
         include: /src/,
