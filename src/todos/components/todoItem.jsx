@@ -1,10 +1,31 @@
 'use strict';
 
 import React from 'react';
+import cx from 'react/lib/cx';
+
+import TodoInput from './todoInput';
+import todoActions from '../actions';
+
+import './todoItem.less';
 
 
-export default React.createClass({
+var TodoItem = React.createClass({
   displayName: 'TodoItem',
+
+  getInitialState() {
+    return {
+      isEditing: false
+    };
+  },
+
+  onToggleComplete() {
+  },
+
+  onDestroy() {
+  },
+
+  onSave() {
+  },
 
   render() {
     return (
@@ -35,3 +56,6 @@ export default React.createClass({
     );
   }
 });
+
+
+export default TodoItem;

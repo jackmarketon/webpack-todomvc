@@ -1,9 +1,9 @@
 'use strict';
 
 import {EventEmitter} from 'events';
-import dispatcher from '../lib/dispatcher';
-import {ACTION_CREATE} from '../actions/todoActions';
+import dispatcher from '../dispatcher';
 
+import {ACTION_CREATE} from './actions';
 export const EVENT_CHANGE = 'change';
 
 var todos = [

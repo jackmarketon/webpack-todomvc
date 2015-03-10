@@ -1,6 +1,6 @@
 'use strict';
 
-import dispatcher from '../lib/dispatcher';
+import dispatcher from '../dispatcher';
 
 
 export const ACTION_CREATE = 'create';

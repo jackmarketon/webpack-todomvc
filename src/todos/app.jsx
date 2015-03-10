@@ -2,15 +2,16 @@
 
 import React from 'react';
 
-import TodoInput from '../todoInput';
-import Todos from '../todos';
-import todoActions from '../../actions/todoActions';
-import todosStore from '../../stores/todosStore';
+import TodoInput from './components/todoInput';
+import TodosList from './components/todosList';
+import todosActions from './actions';
+import todosStore from './store';
 
-import {EVENT_CHANGE} from '../../stores/todosStore';
+import {EVENT_CHANGE} from './store';
 
-import './bootstrap.less';
+import '../bootstrap.less';
 import './app.less';
+
 
 var getTodosState = function() {
   return {
@@ -19,9 +20,7 @@ var getTodosState = function() {
 };
 
 
-export default React.createClass({
-  displayName: 'App',
-
+var TodoApp = React.createClass({
   getInitialState() {
     return getTodosState();
   },
@@ -39,7 +38,7 @@ export default React.createClass({
   },
 
   onSave(text) {
-    todoActions.create(text);
+    todosActions.create(text);
   },
 
   render() {
@@ -49,10 +48,13 @@ export default React.createClass({
           <div className="col-sm-offset-2 col-sm-8 app">
             <h1>Hello</h1>
             <TodoInput onSave={this.onSave} />
-            <Todos todos={this.state.todos} />
+            <TodosList todos={this.state.todos} />
           </div>
         </div>
       </div>
     );
   }
 });
+
+
+React.render(<TodoApp />, document.body);

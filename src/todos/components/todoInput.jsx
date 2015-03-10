@@ -5,9 +5,7 @@ import React from 'react';
 const RETURN_KEY_CODE = 13;
 
 
-export default React.createClass({
-  displayName: 'TodoInput',
-
+var TodoInput = React.createClass({
   getInitialState() {
     return {
       value: this.props.value || ''
@@ -51,3 +49,6 @@ export default React.createClass({
     );
   }
 });
+
+
+export default TodoInput;
