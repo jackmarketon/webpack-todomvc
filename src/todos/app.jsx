@@ -25,6 +25,10 @@ var TodoApp = React.createClass({
     return getTodosState();
   },
 
+  create(text) {
+    todosActions.create(text);
+  },
+
   componentDidMount() {
     todosStore.on(EVENT_CHANGE, this.onChange);
   },
@@ -37,17 +41,16 @@ var TodoApp = React.createClass({
     this.setState(getTodosState());
   },
 
-  onSave(text) {
-    todosActions.create(text);
-  },
-
   render() {
     return (
       <div className="container">
         <div className="row">
           <div className="col-sm-offset-2 col-sm-8 app">
             <h1>Hello</h1>
-            <TodoInput onSave={this.onSave} />
+            <TodoInput
+              createHandler={this.create}
+              placeholder="What to do?"
+            />
             <TodosList todos={this.state.todos} />
           </div>
         </div>
