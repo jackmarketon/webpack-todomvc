@@ -2,6 +2,7 @@
   "name": "webpack",
   "version": "0.0.1",
   "author": "srigi",
+  "license" : "MIT",
   "scripts": {
     "env": "env",
     "clean": "rm -rf dist/*",
