@@ -1,9 +1,11 @@
 'use strict';
 
+import _ from 'lodash';
 import {EventEmitter} from 'events';
 import dispatcher from '../dispatcher';
 
-import {ACTION_CREATE} from './actions';
+import {ACTION_CREATE,
+        ACTION_DESTROY} from './actions';
 export const EVENT_CHANGE = 'change';
 
 var todos = [
@@ -32,6 +34,15 @@ dispatcher.register((payload) => {
         });
       }
       todosStore.emit(EVENT_CHANGE);
+      break;
+
+    case ACTION_DESTROY:
+      let idx = _.findIndex(todos, (todo) => {
+        return todo.id === payload.id;
+      });
+      if (idx > -1) {
+        todos.splice(idx, 1);
+      }
       break;
   }
 });

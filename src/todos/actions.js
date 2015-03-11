@@ -4,6 +4,7 @@ import dispatcher from '../dispatcher';
 
 
 export const ACTION_CREATE = 'create';
+export const ACTION_DESTROY = 'destroy';
 
 
 export default {
