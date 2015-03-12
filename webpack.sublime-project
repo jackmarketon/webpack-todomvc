@@ -11,7 +11,9 @@
         "dist",
         "node_modules",
         "public",
-        "src"
+        "src",
+        "test",
+        "webpack"
       ]
     },
 
