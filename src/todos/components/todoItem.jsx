@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import cx from 'react/lib/cx';
+import cx from 'classnames';
 
 import TodoInput from './todoInput';
 import todoActions from '../actions';
@@ -29,8 +29,7 @@ export default class TodoItem extends React.Component {
 
   render() {
     return (
-      <div className={cx({
-        'todo-item': true,
+      <div className={cx('todo-item', {
         'completed': this.props.todo.done,
         'editing': this.state.isEditing
       })}>

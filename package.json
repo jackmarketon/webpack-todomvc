@@ -12,6 +12,7 @@
     "test": "karma start"
   },
   "dependencies": {
+    "classnames": "^1.1.4",
     "flux": "^2.0.1",
     "lodash": "^3.5.0",
     "react": "^0.13.0"
