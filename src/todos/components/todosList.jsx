@@ -7,7 +7,7 @@ import TodoItem from './todoItem';
 import './todosList.less';
 
 
-var TodosList = React.createClass({
+export default class TodosList extends React.Component {
   render() {
     var todos = this.props.todos.map((todo, idx) => {
       return <TodoItem todo={todo} key={idx} />;
@@ -19,7 +19,4 @@ var TodosList = React.createClass({
       </div>
     );
   }
-});
-
-
-export default TodosList;
+}
