@@ -31,7 +31,7 @@ class TodoApp extends React.Component {
   }
 
   componentDidMount() {
-    todosStore.on(EVENT_CHANGE, this.onChange);
+    todosStore.on(EVENT_CHANGE, this.onChange.bind(this));
   }
 
   componentWillUnmount() {
@@ -39,7 +39,7 @@ class TodoApp extends React.Component {
   }
 
   onChange() {
-    this.state = getTodosState();
+    this.setState(getTodosState());
   }
 
   render() {
