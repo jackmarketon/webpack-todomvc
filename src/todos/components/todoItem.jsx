@@ -9,23 +9,23 @@ import todoActions from '../actions';
 import './todoItem.less';
 
 
-var TodoItem = React.createClass({
-  displayName: 'TodoItem',
+export default class TodoItem extends React.Component {
+  constructor(props) {
+    super(props);
 
-  getInitialState() {
-    return {
+    this.state = {
       isEditing: false
     };
-  },
+  }
 
   onToggleComplete() {
-  },
+  }
 
   onDestroy() {
-  },
+  }
 
   onSave() {
-  },
+  }
 
   render() {
     return (
@@ -39,7 +39,7 @@ var TodoItem = React.createClass({
             <input
               type="checkbox"
               checked={this.props.todo.done}
-              onChange={this.onToggleComplete}
+              onChange={this.onToggleComplete.bind(this)}
             /> {this.props.todo.text}
           </label>
         </div>
@@ -53,7 +53,4 @@ var TodoItem = React.createClass({
       </div>
     );
   }
-});
-
-
-export default TodoItem;
+}
