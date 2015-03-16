@@ -28,7 +28,7 @@ dispatcher.register((payload) => {
       if (text) {
         let id = (+new Date() + Math.floor(Math.random() * 999999)).toString(36);
         todos.push({
-          id: id,
+          ueid: id,
           text: text,
           done: false,
         });
