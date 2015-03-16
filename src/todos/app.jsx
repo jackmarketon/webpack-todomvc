@@ -20,26 +20,27 @@ var getTodosState = function() {
 };
 
 
-var TodoApp = React.createClass({
-  getInitialState() {
-    return getTodosState();
-  },
+class TodoApp extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = getTodosState();
+  }
 
   create(text) {
     todosActions.create(text);
-  },
+  }
 
   componentDidMount() {
-    todosStore.on(EVENT_CHANGE, this.onChange);
-  },
+    todosStore.on(EVENT_CHANGE, this.onChange.bind(this));
+  }
 
   componentWillUnmount() {
     todosStore.removeListener(EVENT_CHANGE, this.onChange);
-  },
+  }
 
   onChange() {
     this.setState(getTodosState());
-  },
+  }
 
   render() {
     return (
@@ -57,7 +58,7 @@ var TodoApp = React.createClass({
       </div>
     );
   }
-});
+}
 
 
 React.render(<TodoApp />, document.body);

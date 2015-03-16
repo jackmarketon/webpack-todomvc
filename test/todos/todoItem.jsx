@@ -13,7 +13,7 @@ describe('<TodoItem>', function() {
 
   beforeEach(function() {
     todoItem = testUtils.renderIntoDocument(<TodoItem todo={testTodo} />);
-    todoItemDOMNode = todoItem.getDOMNode();
+    todoItemDOMNode = React.findDOMNode(todoItem);
   });
 
 
