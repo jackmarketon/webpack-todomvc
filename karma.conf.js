@@ -17,6 +17,7 @@ module.exports = function(config) {
     ],
 
     files: [
+      {pattern: 'src/**/*.{css,jsx,js,less}', included:false, served:false, watched:true},
       'tests.webpack.js'
     ],
 
