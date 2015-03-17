@@ -9,15 +9,6 @@ const RETURN_KEY_CODE = 13;
 
 
 export default class TodoInput extends React.Component {
-  static propTypes() {
-    return {
-      createHandler: ReactPropTypes.func.isRequired,
-      className: ReactPropTypes.string,
-      value: ReactPropTypes.string,
-      placeholder: ReactPropTypes.string
-    };
-  }
-
   constructor(props) {
     super(props);
     this.state = {
@@ -62,3 +53,10 @@ export default class TodoInput extends React.Component {
     );
   }
 }
+
+TodoInput.propTypes = {
+  createHandler: ReactPropTypes.func.isRequired,
+  className: ReactPropTypes.string,
+  value: ReactPropTypes.string,
+  placeholder: ReactPropTypes.string
+};
