@@ -23,7 +23,9 @@ var getTodosState = function() {
 class TodoApp extends React.Component {
   constructor(props) {
     super(props);
-    this.state = getTodosState();
+    this.state = {
+      todos: props.todos
+    };
   }
 
   create(text) {
@@ -39,7 +41,7 @@ class TodoApp extends React.Component {
   }
 
   onChange() {
-    this.setState(getTodosState());
+    this.setState(this.props.appStateGetter());
   }
 
   render() {
@@ -59,6 +61,11 @@ class TodoApp extends React.Component {
     );
   }
 }
+
+TodoApp.defaultProps = {
+  appStateGetter: getTodosState,
+  ...getTodosState()
+};
 
 
 React.render(<TodoApp />, document.body);
