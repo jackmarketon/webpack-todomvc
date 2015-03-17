@@ -23,6 +23,5 @@
   "strict": true,
 
   "browser": true,
-  "devel": true,
   "browserify": true
 }
