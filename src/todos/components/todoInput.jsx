@@ -1,5 +1,5 @@
-import React from 'react';
-var ReactPropTypes = React.PropTypes;
+import {default as React,
+        PropTypes as ReactPropTypes} from 'react';
 
 import './todoInput.less';
 
