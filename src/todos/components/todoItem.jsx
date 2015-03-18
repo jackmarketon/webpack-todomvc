@@ -1,5 +1,3 @@
-'use strict';
-
 import React from 'react';
 import cx from 'classnames';
 
@@ -14,7 +12,7 @@ export default class TodoItem extends React.Component {
     super(props);
 
     this.state = {
-      isEditing: false
+      isEditing: false,
     };
   }
 
@@ -30,8 +28,8 @@ export default class TodoItem extends React.Component {
   render() {
     return (
       <div className={cx('todo-item', {
-        'completed': this.props.todo.done,
-        'editing': this.state.isEditing
+        completed: this.props.todo.done,
+        editing: this.state.isEditing,
       })}>
         <div className="checkbox pull-left">
           <label>

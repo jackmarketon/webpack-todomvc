@@ -1,4 +1,3 @@
-/* jshint node: true, jasmine: true */
 'use strict';
 
 var dispatcher = require('../../src/dispatcher');
@@ -35,7 +34,7 @@ describe('todos/store', function() {
     // manually dispatch create action
     storeRegisterCallback({
       actionType: todosActionsModule.ACTION_CREATE,
-      text: 'Lorem ipsum'
+      text: 'Lorem ipsum',
     });
 
     var all = todosStore.getAll();
@@ -51,7 +50,7 @@ describe('todos/store', function() {
     // manually dispatch destroy action
     storeRegisterCallback({
       actionType: todosActionsModule.ACTION_DESTROY,
-      id: 1
+      id: 1,
     });
 
     var after = todosStore.getAll().length;

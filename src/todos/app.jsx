@@ -1,5 +1,3 @@
-'use strict';
-
 import React from 'react';
 
 import TodoInput from './components/todoInput';
@@ -15,7 +13,7 @@ import './app.less';
 
 var getTodosState = function() {
   return {
-    todos: todosStore.getAll()
+    todos: todosStore.getAll(),
   };
 };
 
@@ -24,7 +22,7 @@ class TodoApp extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      todos: props.todos
+      todos: props.todos,
     };
   }
 
@@ -64,7 +62,7 @@ class TodoApp extends React.Component {
 
 TodoApp.defaultProps = {
   appStateGetter: getTodosState,
-  ...getTodosState()
+  ...getTodosState(),
 };
 
 

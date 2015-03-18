@@ -1,5 +1,3 @@
-'use strict';
-
 import dispatcher from '../dispatcher';
 
 
@@ -11,7 +9,7 @@ export default {
   create(text) {
     dispatcher.dispatch({
       actionType: ACTION_CREATE,
-      text: text
+      text: text,
     });
-  }
+  },
 };
