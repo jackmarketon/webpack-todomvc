@@ -1,0 +1,14 @@
+{
+  "env": {
+    "browser": true
+  },
+
+  "rules": {
+    "max-depth": [1, 3],
+    "max-len": [1, 120, 2],
+    "max-nested-callbacks": [2, 2],
+    "max-params": [1, 3],
+    "max-statements": [1, 5],
+    "strict": [0, "never"]  // don't require "use strict" in source files, webpack adds it
+  }
+}

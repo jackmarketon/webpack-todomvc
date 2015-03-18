@@ -1,0 +1,11 @@
+{
+  "env": {
+    "jasmine": true,
+    "node": true
+  },
+
+  "rules": {
+    "max-statements": [1, 7],
+    "strict": [2, "global"]
+  }
+}
