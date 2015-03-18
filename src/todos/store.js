@@ -1,5 +1,3 @@
-'use strict';
-
 import _ from 'lodash';
 import {EventEmitter} from 'events';
 import dispatcher from '../dispatcher';
@@ -10,14 +8,14 @@ export const EVENT_CHANGE = 'change';
 
 var todos = [
   {id: 1, text: 'christmas', done: true},
-  {id: 2, text: 'easter', done: false}
+  {id: 2, text: 'easter', done: false},
 ];
 
 
 var todosStore = Object.assign({}, EventEmitter.prototype, {
   getAll() {
     return todos;
-  }
+  },
 });
 
 

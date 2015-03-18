@@ -6,7 +6,8 @@
   "scripts": {
     "env": "env",
     "clean": "rm -rf dist/*",
-    "prebuild:dev": "npm run clean",
+    "lint": "eslint src/**/*.js src/**/*.jsx test/**/*",
+    "prebuild:dev": "npm run clean && npm run lint",
     "build:dev": "webpack --debug --devtool source-map --progress",
     "server:dev": "webpack-dev-server --content-base public --debug --devtool source-map --port 8000 --progress",
     "test": "karma start"

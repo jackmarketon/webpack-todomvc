@@ -1,7 +1,5 @@
-'use strict';
-
-import React from 'react';
-var ReactPropTypes = React.PropTypes;
+import {default as React,
+        PropTypes as ReactPropTypes} from 'react';
 
 import './todoInput.less';
 
@@ -12,7 +10,7 @@ export default class TodoInput extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: props.value || ''
+      value: props.value || '',
     };
   }
 
@@ -23,7 +21,7 @@ export default class TodoInput extends React.Component {
 
   onChange(ev) {
     this.setState({
-      value: ev.target.value
+      value: ev.target.value,
     });
   }
 
@@ -58,5 +56,5 @@ TodoInput.propTypes = {
   createHandler: ReactPropTypes.func.isRequired,
   className: ReactPropTypes.string,
   value: ReactPropTypes.string,
-  placeholder: ReactPropTypes.string
+  placeholder: ReactPropTypes.string,
 };

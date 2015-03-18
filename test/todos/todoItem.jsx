@@ -1,4 +1,3 @@
-/* jshint node: true, jasmine: true */
 'use strict';
 
 import React from 'react';
