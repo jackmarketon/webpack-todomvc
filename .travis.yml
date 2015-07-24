@@ -10,7 +10,9 @@ cache:
 after_success:
  - npm run build
  - git config credential.helper 'store --file=.git/credentials'
+ - git config --global push.default simple
  - echo 'https://${GH_TOKEN}:@github.com' > .git/credentials
+ - git status
  - git add -A .
  - git commit -m 'Travis CI Build'
  - git remote -v
