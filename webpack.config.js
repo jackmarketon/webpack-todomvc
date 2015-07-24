@@ -3,9 +3,11 @@
 
 var path = require('path');
 
+var webpack = require("webpack");
 var webpackLoadersConfig = require('./webpack/loaders.config');
-var webpackPluginsConfig = require('./webpack/plugins.config');
 var webpackResolveConfig = require('./webpack/resolve.config');
+
+var PROD = JSON.parse(process.env.PROD_DEV || "0");
 
 
 module.exports = {
@@ -13,7 +15,7 @@ module.exports = {
    todos: './src/todos/app.jsx',
   },
   output: {
-    filename: '[name].bundle.js',
+    filename: PROD ? '[name].bundle.min.js' : '[name].bundle.js',
     path: path.join(__dirname, 'dist')
   },
 
@@ -21,7 +23,9 @@ module.exports = {
     loaders: webpackLoadersConfig
   },
 
-  plugins: webpackPluginsConfig,
+  plugins: PROD ? [
+    new webpack.optimize.UglifyJsPlugin({minimize: true})
+  ] : [],
 
   resolve: webpackResolveConfig
 };

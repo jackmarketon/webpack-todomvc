@@ -9,6 +9,7 @@
     "lint": "eslint src/**/*.js src/**/*.jsx test/**/*",
     "prebuild:dev": "npm run clean && npm run lint",
     "build:dev": "webpack --debug --devtool source-map --progress",
+    "build": "PROD_DEV=1 webpack",
     "server:dev": "webpack-dev-server --content-base public --debug --devtool source-map --port 8000 --progress",
     "test": "karma start"
   },
@@ -20,9 +21,11 @@
   },
   "devDependencies": {
     "babel-core": "^4.7.3",
+    "babel-eslint": "^3.1.26",
     "babel-loader": "^4.1.0",
     "babel-runtime": "^4.7.3",
     "css-loader": "^0.9.1",
+    "eslint": "^0.24.1",
     "file-loader": "^0.8.1",
     "jasmine-core": "^2.2.0",
     "karma": "^0.12.31",
