@@ -13,7 +13,7 @@ deploy:
  - git config credential.helper 'store --file=.git/credentials'
  - echo 'https://${GH_TOKEN}:@github.com' > .git/credentials
  - git add -A .
- - git commit -m '$COMMIT_IGNORE_BUILD'
+ - git commit -m 'Travis CI Build'
  - git remote -v
  - git remote set-url origin https://github.com/$TRAVIS_REPO_SLUG.git
  - git push
