@@ -7,9 +7,8 @@ before_script:
 cache:
  directories:
    - node_modules
-before_deploy:
+after_success:
  - npm run build
-deploy:
  - git config credential.helper 'store --file=.git/credentials'
  - echo 'https://${GH_TOKEN}:@github.com' > .git/credentials
  - git add -A .
