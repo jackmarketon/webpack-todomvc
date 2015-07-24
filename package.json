@@ -11,7 +11,7 @@
     "build:dev": "webpack --debug --devtool source-map --progress",
     "build": "PROD_DEV=1 webpack",
     "server:dev": "webpack-dev-server --content-base public --debug --devtool source-map --port 8000 --progress",
-    "test": "karma start"
+    "test": "./node_modules/.bin/karma start --single-run"
   },
   "dependencies": {
     "classnames": "^1.1.4",
