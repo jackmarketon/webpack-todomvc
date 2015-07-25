@@ -10,6 +10,7 @@ cache:
  directories:
    - node_modules
 after_success:
+ - echo $TRAVIS_REPO_SLUG
  - git config credential.helper 'store --file=.git/credentials'
  - git config --global push.default simple
  - echo 'https://${GH_TOKEN}:@github.com' > .git/credentials
