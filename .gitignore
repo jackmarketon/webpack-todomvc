@@ -19,7 +19,6 @@ nbproject
 
 ## Folders to ignore
 bower_components
-dist
 my_resources
 node_modules
 
