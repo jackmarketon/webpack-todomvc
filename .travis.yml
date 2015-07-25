@@ -8,7 +8,7 @@ before_script:
 cache:
  directories:
    - node_modules
-after_success:
+after_script:
  - ./deploy.sh
 env:
  global:
