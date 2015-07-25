@@ -7,7 +7,7 @@ import {ACTION_CREATE,
 export const EVENT_CHANGE = 'change';
 
 var todos = [
-  {id: 1, text: 'christmas', done: true},
+  {id: 1, text: 'halloween', done: true},
   {id: 2, text: 'easter', done: false},
 ];
 
