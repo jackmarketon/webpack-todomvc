@@ -8,7 +8,7 @@ before_script:
 cache:
  directories:
    - node_modules
-after_success:./deploy.sh
+after_success: ./deploy.sh
 env:
  global:
   - USER_EMAIL=jmarketon@gmail.com
