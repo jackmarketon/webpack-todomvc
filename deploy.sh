@@ -6,8 +6,7 @@ git config --global push.default simple
 git config user.email "${USER_EMAIL}"
 git config user.name "${USER_NAME}"
 git checkout ${TRAVIS_BRANCH}
-branch=$(git symbolic-ref --short -q HEAD)
-if ! [ "$branch" == "master" ]; then
+if ! [ "$(git symbolic-ref --short -q HEAD)" == "master" ]; then
 	rm ./stats.json 2> /dev/null
 	npm run build
 	git add -A .
