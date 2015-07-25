@@ -5,6 +5,13 @@ before_script:
  - export DISPLAY=:99.0
  - sh -e /etc/init.d/xvfb start
  - sleep 3
-branches:
-  only:
-   - master
+cache:
+ directories:
+   - node_modules
+after_success: ./deploy.sh
+env:
+ global:
+  - USER_EMAIL=jmarketon@gmail.com
+  - USER_NAME="Jackson Marketon"
+  - USER=jmarketon
+  - secure: kPu6EDqIZWlVVlSMyGRFJh1wBM361I39ZoxGIN8vRZly8drxRwkSjndET3YY5aY8OsCH37mOeDnlDn2RoFUfWtmmWoZ5o0GmGrLAhA6Ao13fKGJ2u9Mk9TP/f1TfwQFMPGWCdjQ0BI1Vbty3huRJFcTKE//GcAFwOHIBkytikKg/+vYLsbFgIxAGpfFexDaiFUvKWIiU5Tn2py566i3EqdUBugjkaTMYN/eq76i6ggJQrge0FZDaxBtNHMA0dHGmMIYtkzN6dgg3YE1mpx2IHzJT9y50kBNcGk6AmrcQVzmZlgKXr4EAFrqa0lsRvJuY75xXXc72QeXAUEoDTrI878mpAjdAP2JPMDzN1f06ilj7MJE8uX32blkUFggw0oH8vJvzTDnr2xZl6lDg+0e/LAtGLYx5H6XUFgW4MNc6fo6yLKRBQEb1/f3Cn9zC8v05VObZ1igFRwq1yw+HVoJx43FJf+Spq2bI0D5jbEGfmspAu2m/SpJl0ui8/qXloJrWZXpwEhGdGASgFlytKpNBYaeZCLlFFLoDBLVf06MK/JF6Ys4lSfNX2orG/PlEovVLdN1OlpvIA7POTqQdTrXRuMxDdekKYpdHXy7DHsQ0yt+lgXJZtK6n4YydmrkeVeFuvy9iqeCbtIUdSy2XkRqHbzPUXpSlp5/W260qNEhErxg=
