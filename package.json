@@ -9,7 +9,7 @@
     "lint": "eslint src/**/*.js src/**/*.jsx test/**/*",
     "prebuild:dev": "npm run clean && npm run lint",
     "build:dev": "webpack --debug --devtool source-map --progress",
-    "build": "PROD_DEV=1 webpack",
+    "build": "PROD_DEV=1 webpack --profile --json > stats.json",
     "server:dev": "webpack-dev-server --content-base public --debug --devtool source-map --port 8000 --progress",
     "test": "./node_modules/.bin/karma start --single-run"
   },
@@ -31,6 +31,7 @@
     "karma": "^0.12.31",
     "karma-chrome-launcher": "^0.1.7",
     "karma-cli": "0.0.4",
+    "karma-firefox-launcher": "^0.1.6",
     "karma-jasmine": "^0.3.5",
     "karma-phantomjs-launcher": "^0.2.0",
     "karma-sourcemap-loader": "^0.3.4",
