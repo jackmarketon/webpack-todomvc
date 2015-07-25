@@ -8,8 +8,9 @@ before_script:
 cache:
  directories:
    - node_modules
-after_success:
- - scripts/deploy.sh
+deploy:
+ provider: script
+ script: scripts/deploy.sh
 env:
  global:
   - USER_EMAIL=jmarketon@gmail.com
