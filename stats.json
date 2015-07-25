@@ -4,8 +4,8 @@
     "todos.bundle.min.js from UglifyJs\nSide effects in initialization of unused variable RegExp [./~/babel-runtime/core-js.js:47,0]\nSide effects in initialization of unused variable Date [./~/babel-runtime/core-js.js:48,0]\nSide effects in initialization of unused variable navigator [./~/babel-runtime/core-js.js:66,0]\nSide effects in initialization of unused variable defineProperties [./~/babel-runtime/core-js.js:167,0]\nSide effects in initialization of unused variable unshift [./~/babel-runtime/core-js.js:223,0]\nSide effects in initialization of unused variable slice [./~/babel-runtime/core-js.js:224,0]\nSide effects in initialization of unused variable splice [./~/babel-runtime/core-js.js:225,0]\nSide effects in initialization of unused variable indexOf [./~/babel-runtime/core-js.js:226,0]\nCondition always false [./~/style-loader!./~/css-loader?sourceMap!./~/less-loader!./src/todos/components/todoInput.less:9,0]\nDropping unreachable code [./~/style-loader!./~/css-loader?sourceMap!./~/less-loader!./src/todos/components/todoInput.less:11,0]\nSide effects in initialization of unused variable update [./~/style-loader!./~/css-loader?sourceMap!./~/less-loader!./src/todos/components/todoInput.less:7,0]\nCondition always false [./~/style-loader/addStyles.js:23,0]\nDropping unreachable code [./~/style-loader/addStyles.js:24,0]\nSide effects in initialization of unused variable TodoInput [./src/todos/components/todoItem.jsx:4,7]\nSide effects in initialization of unused variable todoActions [./src/todos/components/todoItem.jsx:5,7]\nCondition always true [./~/classnames/index.js:39,0]\nCondition always false [./~/flux/lib/invariant.js:26,0]\nDropping unreachable code [./~/flux/lib/invariant.js:27,0]\nCondition always false [./~/style-loader!./~/css-loader?sourceMap!./~/less-loader!./src/todos/components/todoItem.less:9,0]\nDropping unreachable code [./~/style-loader!./~/css-loader?sourceMap!./~/less-loader!./src/todos/components/todoItem.less:11,0]\nSide effects in initialization of unused variable update [./~/style-loader!./~/css-loader?sourceMap!./~/less-loader!./src/todos/components/todoItem.less:7,0]\nCondition always false [./~/style-loader!./~/css-loader?sourceMap!./~/less-loader!./src/todos/components/todosList.less:9,0]\nDropping unreachable code [./~/style-loader!./~/css-loader?sourceMap!./~/less-loader!./src/todos/components/todosList.less:11,0]\nSide effects in initialization of unused variable update [./~/style-loader!./~/css-loader?sourceMap!./~/less-loader!./src/todos/components/todosList.less:7,0]\nSide effects in initialization of unused variable support [./~/lodash/index.js:932,0]\nCondition always true [./~/lodash/index.js:12323,0]\nDropping unreachable code [./~/lodash/index.js:12337,0]\nSide effects in initialization of unused variable moduleExports [./~/lodash/index.js:266,0]\nCondition always false [./~/style-loader!./~/css-loader?sourceMap!./~/less-loader!./src/bootstrap.less:9,0]\nDropping unreachable code [./~/style-loader!./~/css-loader?sourceMap!./~/less-loader!./src/bootstrap.less:11,0]\nSide effects in initialization of unused variable update [./~/style-loader!./~/css-loader?sourceMap!./~/less-loader!./src/bootstrap.less:7,0]\nCondition always false [./~/style-loader!./~/css-loader?sourceMap!./~/less-loader!./src/todos/app.less:9,0]\nDropping unreachable code [./~/style-loader!./~/css-loader?sourceMap!./~/less-loader!./src/todos/app.less:11,0]\nSide effects in initialization of unused variable update [./~/style-loader!./~/css-loader?sourceMap!./~/less-loader!./src/todos/app.less:7,0]"
   ],
   "version": "1.10.5",
-  "hash": "a5eb24c549e002e9bfd7",
-  "time": 16749,
+  "hash": "03b99d68efcb09f74a55",
+  "time": 10540,
   "publicPath": "",
   "assetsByChunkName": {
     "todos": "todos.bundle.min.js"
@@ -13,7 +13,7 @@
   "assets": [
     {
       "name": "todos.bundle.min.js",
-      "size": 259382,
+      "size": 259384,
       "chunks": [
         0
       ],
@@ -30,14 +30,14 @@
       "initial": true,
       "entry": true,
       "extraAsync": false,
-      "size": 1140767,
+      "size": 1140774,
       "names": [
         "todos"
       ],
       "files": [
         "todos.bundle.min.js"
       ],
-      "hash": "78ed1d7303e0bf437337",
+      "hash": "22aadeaf98565484cafc",
       "parents": [],
       "modules": [
         {
@@ -55,8 +55,8 @@
           "assets": [],
           "issuer": null,
           "profile": {
-            "factory": 34,
-            "building": 1143
+            "factory": 26,
+            "building": 736
           },
           "failed": false,
           "errors": 0,
@@ -79,8 +79,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
           "profile": {
-            "factory": 76,
-            "building": 787
+            "factory": 49,
+            "building": 501
           },
           "failed": false,
           "errors": 0,
@@ -140,8 +140,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/react.js",
           "profile": {
-            "factory": 93,
-            "building": 664
+            "factory": 56,
+            "building": 403
           },
           "failed": false,
           "errors": 0,
@@ -174,8 +174,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 84,
-            "building": 298
+            "factory": 49,
+            "building": 199
           },
           "failed": false,
           "errors": 0,
@@ -730,9 +730,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 50,
-            "building": 45,
-            "dependencies": 2
+            "factory": 30,
+            "building": 25,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -783,8 +783,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/EventPluginUtils.js",
           "profile": {
-            "factory": 252,
-            "building": 43,
+            "factory": 171,
+            "building": 27,
             "dependencies": 0
           },
           "failed": false,
@@ -917,8 +917,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactClass.js",
           "profile": {
-            "factory": 214,
-            "building": 85,
+            "factory": 148,
+            "building": 60,
             "dependencies": 1
           },
           "failed": false,
@@ -988,8 +988,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/EventPluginUtils.js",
           "profile": {
-            "factory": 253,
-            "building": 44,
+            "factory": 171,
+            "building": 29,
             "dependencies": 0
           },
           "failed": false,
@@ -1365,9 +1365,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 51,
-            "building": 50,
-            "dependencies": 2
+            "factory": 31,
+            "building": 28,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -1400,8 +1400,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactChildren.js",
           "profile": {
-            "factory": 249,
-            "building": 45,
+            "factory": 168,
+            "building": 31,
             "dependencies": 0
           },
           "failed": false,
@@ -1507,9 +1507,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactChildren.js",
           "profile": {
-            "factory": 249,
-            "building": 51,
-            "dependencies": 1
+            "factory": 169,
+            "building": 36,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -1569,9 +1569,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 55,
-            "building": 111,
-            "dependencies": 186
+            "factory": 41,
+            "building": 58,
+            "dependencies": 130
           },
           "failed": false,
           "errors": 0,
@@ -1802,9 +1802,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 54,
-            "building": 99,
-            "dependencies": 199
+            "factory": 32,
+            "building": 58,
+            "dependencies": 139
           },
           "failed": false,
           "errors": 0,
@@ -1855,8 +1855,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 76,
-            "building": 220
+            "factory": 44,
+            "building": 146
           },
           "failed": false,
           "errors": 0,
@@ -2096,9 +2096,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactContext.js",
           "profile": {
-            "factory": 204,
-            "building": 87,
-            "dependencies": 0
+            "factory": 143,
+            "building": 60,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -2158,8 +2158,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactChildren.js",
           "profile": {
-            "factory": 250,
-            "building": 61,
+            "factory": 169,
+            "building": 44,
             "dependencies": 0
           },
           "failed": false,
@@ -2382,8 +2382,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactPropTypes.js",
           "profile": {
-            "factory": 104,
-            "building": 295
+            "factory": 73,
+            "building": 197
           },
           "failed": false,
           "errors": 0,
@@ -2479,8 +2479,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 54,
-            "building": 100
+            "factory": 32,
+            "building": 59
           },
           "failed": false,
           "errors": 0,
@@ -2585,9 +2585,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactChildren.js",
           "profile": {
-            "factory": 250,
-            "building": 57,
-            "dependencies": 2
+            "factory": 169,
+            "building": 42,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -2629,8 +2629,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactElementValidator.js",
           "profile": {
-            "factory": 178,
-            "building": 89
+            "factory": 120,
+            "building": 63
           },
           "failed": false,
           "errors": 0,
@@ -2672,9 +2672,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 73,
-            "building": 155,
-            "dependencies": 121
+            "factory": 42,
+            "building": 101,
+            "dependencies": 84
           },
           "failed": false,
           "errors": 0,
@@ -2752,8 +2752,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactInstanceHandles.js",
           "profile": {
-            "factory": 143,
-            "building": 264
+            "factory": 98,
+            "building": 173
           },
           "failed": false,
           "errors": 0,
@@ -2795,9 +2795,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 52,
-            "building": 59,
-            "dependencies": 240
+            "factory": 31,
+            "building": 33,
+            "dependencies": 164
           },
           "failed": false,
           "errors": 0,
@@ -2839,9 +2839,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactComponent.js",
           "profile": {
-            "factory": 242,
-            "building": 82,
-            "dependencies": 3
+            "factory": 165,
+            "building": 58,
+            "dependencies": 2
           },
           "failed": false,
           "errors": 0,
@@ -2892,9 +2892,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
           "profile": {
-            "factory": 118,
-            "building": 286,
-            "dependencies": 56
+            "factory": 83,
+            "building": 187,
+            "dependencies": 43
           },
           "failed": false,
           "errors": 0,
@@ -3008,9 +3008,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactReconcileTransaction.js",
           "profile": {
-            "factory": 138,
-            "building": 101,
-            "dependencies": 1
+            "factory": 94,
+            "building": 66,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -3061,8 +3061,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 74,
-            "building": 192,
+            "factory": 43,
+            "building": 123,
             "dependencies": 0
           },
           "failed": false,
@@ -3159,9 +3159,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 75,
-            "building": 212,
-            "dependencies": 1
+            "factory": 44,
+            "building": 139,
+            "dependencies": 2
           },
           "failed": false,
           "errors": 0,
@@ -3239,8 +3239,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactReconciler.js",
           "profile": {
-            "factory": 90,
-            "building": 296
+            "factory": 61,
+            "building": 198
           },
           "failed": false,
           "errors": 0,
@@ -3273,8 +3273,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactRef.js",
           "profile": {
-            "factory": 52,
-            "building": 161,
+            "factory": 37,
+            "building": 107,
             "dependencies": 0
           },
           "failed": false,
@@ -3308,9 +3308,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 71,
-            "building": 110,
-            "dependencies": 175
+            "factory": 41,
+            "building": 72,
+            "dependencies": 119
           },
           "failed": false,
           "errors": 0,
@@ -3379,8 +3379,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactClass.js",
           "profile": {
-            "factory": 213,
-            "building": 85,
+            "factory": 148,
+            "building": 60,
             "dependencies": 0
           },
           "failed": false,
@@ -3432,8 +3432,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactClass.js",
           "profile": {
-            "factory": 211,
-            "building": 85,
+            "factory": 146,
+            "building": 60,
             "dependencies": 0
           },
           "failed": false,
@@ -3494,8 +3494,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactElementValidator.js",
           "profile": {
-            "factory": 177,
-            "building": 88,
+            "factory": 120,
+            "building": 62,
             "dependencies": 1
           },
           "failed": false,
@@ -3556,8 +3556,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultBatchingStrategy.js",
           "profile": {
-            "factory": 193,
-            "building": 85,
+            "factory": 127,
+            "building": 56,
             "dependencies": 0
           },
           "failed": false,
@@ -3618,8 +3618,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactClass.js",
           "profile": {
-            "factory": 213,
-            "building": 85
+            "factory": 147,
+            "building": 60
           },
           "failed": false,
           "errors": 0,
@@ -3670,8 +3670,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactClass.js",
           "profile": {
-            "factory": 212,
-            "building": 85
+            "factory": 147,
+            "building": 60
           },
           "failed": false,
           "errors": 0,
@@ -3749,9 +3749,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 53,
-            "building": 90,
-            "dependencies": 210
+            "factory": 31,
+            "building": 53,
+            "dependencies": 145
           },
           "failed": false,
           "errors": 0,
@@ -3883,8 +3883,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactClass.js",
           "profile": {
-            "factory": 212,
-            "building": 85
+            "factory": 147,
+            "building": 60
           },
           "failed": false,
           "errors": 0,
@@ -3917,8 +3917,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactClass.js",
           "profile": {
-            "factory": 214,
-            "building": 86
+            "factory": 148,
+            "building": 61
           },
           "failed": false,
           "errors": 0,
@@ -4014,8 +4014,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 72,
-            "building": 115,
+            "factory": 42,
+            "building": 75,
             "dependencies": 1
           },
           "failed": false,
@@ -4049,8 +4049,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOM.js",
           "profile": {
-            "factory": 172,
-            "building": 90
+            "factory": 117,
+            "building": 63
           },
           "failed": false,
           "errors": 0,
@@ -4083,8 +4083,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 72,
-            "building": 120,
+            "factory": 42,
+            "building": 79,
             "dependencies": 2
           },
           "failed": false,
@@ -4127,8 +4127,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMTextComponent.js",
           "profile": {
-            "factory": 167,
-            "building": 96,
+            "factory": 113,
+            "building": 66,
             "dependencies": 1
           },
           "failed": false,
@@ -4198,8 +4198,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
           "profile": {
-            "factory": 116,
-            "building": 268,
+            "factory": 82,
+            "building": 175,
             "dependencies": 0
           },
           "failed": false,
@@ -4287,8 +4287,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/DOMPropertyOperations.js",
           "profile": {
-            "factory": 247,
-            "building": 42,
+            "factory": 164,
+            "building": 29,
             "dependencies": 1
           },
           "failed": false,
@@ -4322,8 +4322,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMTextComponent.js",
           "profile": {
-            "factory": 169,
-            "building": 121
+            "factory": 114,
+            "building": 82
           },
           "failed": false,
           "errors": 0,
@@ -4383,8 +4383,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMTextComponent.js",
           "profile": {
-            "factory": 168,
-            "building": 97,
+            "factory": 113,
+            "building": 68,
             "dependencies": 0
           },
           "failed": false,
@@ -4436,9 +4436,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 163,
-            "building": 165,
-            "dependencies": 171
+            "factory": 111,
+            "building": 113,
+            "dependencies": 113
           },
           "failed": false,
           "errors": 0,
@@ -4480,9 +4480,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMComponent.js",
           "profile": {
-            "factory": 226,
-            "building": 49,
-            "dependencies": 3
+            "factory": 150,
+            "building": 36,
+            "dependencies": 2
           },
           "failed": false,
           "errors": 0,
@@ -4524,8 +4524,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/CSSPropertyOperations.js",
           "profile": {
-            "factory": 161,
-            "building": 11
+            "factory": 103,
+            "building": 7
           },
           "failed": false,
           "errors": 0,
@@ -4567,8 +4567,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 77,
-            "building": 224
+            "factory": 45,
+            "building": 149
           },
           "failed": false,
           "errors": 0,
@@ -4736,8 +4736,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/CSSPropertyOperations.js",
           "profile": {
-            "factory": 161,
-            "building": 11
+            "factory": 103,
+            "building": 8
           },
           "failed": false,
           "errors": 0,
@@ -4770,8 +4770,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/camelizeStyleName.js",
           "profile": {
-            "factory": 33,
-            "building": 3
+            "factory": 20,
+            "building": 2
           },
           "failed": false,
           "errors": 0,
@@ -4804,9 +4804,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/CSSPropertyOperations.js",
           "profile": {
-            "factory": 162,
-            "building": 12,
-            "dependencies": 0
+            "factory": 103,
+            "building": 8,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -4839,8 +4839,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/CSSPropertyOperations.js",
           "profile": {
-            "factory": 162,
-            "building": 12
+            "factory": 104,
+            "building": 8
           },
           "failed": false,
           "errors": 0,
@@ -4873,7 +4873,7 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/hyphenateStyleName.js",
           "profile": {
-            "factory": 32,
+            "factory": 19,
             "building": 2
           },
           "failed": false,
@@ -4907,8 +4907,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/CSSPropertyOperations.js",
           "profile": {
-            "factory": 163,
-            "building": 12
+            "factory": 104,
+            "building": 8
           },
           "failed": false,
           "errors": 0,
@@ -4941,9 +4941,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMIDOperations.js",
           "profile": {
-            "factory": 182,
-            "building": 91,
-            "dependencies": 110
+            "factory": 121,
+            "building": 59,
+            "dependencies": 73
           },
           "failed": false,
           "errors": 0,
@@ -4976,9 +4976,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/DOMChildrenOperations.js",
           "profile": {
-            "factory": 114,
-            "building": 23,
-            "dependencies": 2
+            "factory": 76,
+            "building": 15,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -5011,9 +5011,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/Danger.js",
           "profile": {
-            "factory": 16,
-            "building": 7,
-            "dependencies": 2
+            "factory": 10,
+            "building": 4,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -5046,7 +5046,7 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/createNodesFromMarkup.js",
           "profile": {
-            "factory": 7,
+            "factory": 5,
             "building": 1
           },
           "failed": false,
@@ -5080,9 +5080,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/createArrayFromMixed.js",
           "profile": {
-            "factory": 1,
+            "factory": 0,
             "building": 2,
-            "dependencies": 1
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -5115,9 +5115,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/Danger.js",
           "profile": {
-            "factory": 17,
-            "building": 10,
-            "dependencies": 1
+            "factory": 10,
+            "building": 7,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -5159,8 +5159,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMultiChild.js",
           "profile": {
-            "factory": 152,
-            "building": 13,
+            "factory": 98,
+            "building": 9,
             "dependencies": 0
           },
           "failed": false,
@@ -5203,8 +5203,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/DOMChildrenOperations.js",
           "profile": {
-            "factory": 115,
-            "building": 25,
+            "factory": 77,
+            "building": 15,
             "dependencies": 1
           },
           "failed": false,
@@ -5238,8 +5238,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
           "profile": {
-            "factory": 120,
-            "building": 294,
+            "factory": 84,
+            "building": 194,
             "dependencies": 0
           },
           "failed": false,
@@ -5291,9 +5291,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 74,
-            "building": 181,
-            "dependencies": 102
+            "factory": 43,
+            "building": 117,
+            "dependencies": 73
           },
           "failed": false,
           "errors": 0,
@@ -5407,9 +5407,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
           "profile": {
-            "factory": 116,
-            "building": 273,
-            "dependencies": 62
+            "factory": 82,
+            "building": 178,
+            "dependencies": 47
           },
           "failed": false,
           "errors": 0,
@@ -5487,9 +5487,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ChangeEventPlugin.js",
           "profile": {
-            "factory": 208,
-            "building": 75,
-            "dependencies": 135
+            "factory": 139,
+            "building": 50,
+            "dependencies": 89
           },
           "failed": false,
           "errors": 0,
@@ -5558,8 +5558,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactBrowserEventEmitter.js",
           "profile": {
-            "factory": 78,
-            "building": 128,
+            "factory": 57,
+            "building": 82,
             "dependencies": 0
           },
           "failed": false,
@@ -5602,9 +5602,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/EventPropagators.js",
           "profile": {
-            "factory": 147,
-            "building": 16,
-            "dependencies": 1
+            "factory": 96,
+            "building": 11,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -5655,8 +5655,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/EventPropagators.js",
           "profile": {
-            "factory": 148,
-            "building": 16
+            "factory": 97,
+            "building": 10
           },
           "failed": false,
           "errors": 0,
@@ -5707,8 +5707,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactBrowserEventEmitter.js",
           "profile": {
-            "factory": 78,
-            "building": 130,
+            "factory": 57,
+            "building": 83,
             "dependencies": 0
           },
           "failed": false,
@@ -5742,8 +5742,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactBrowserEventEmitter.js",
           "profile": {
-            "factory": 79,
-            "building": 130
+            "factory": 58,
+            "building": 82
           },
           "failed": false,
           "errors": 0,
@@ -5785,8 +5785,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMComponent.js",
           "profile": {
-            "factory": 227,
-            "building": 61,
+            "factory": 151,
+            "building": 42,
             "dependencies": 1
           },
           "failed": false,
@@ -5838,8 +5838,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
           "profile": {
-            "factory": 116,
-            "building": 277,
+            "factory": 82,
+            "building": 181,
             "dependencies": 1
           },
           "failed": false,
@@ -5891,8 +5891,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
           "profile": {
-            "factory": 117,
-            "building": 278
+            "factory": 82,
+            "building": 183
           },
           "failed": false,
           "errors": 0,
@@ -5934,8 +5934,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMarkupChecksum.js",
           "profile": {
-            "factory": 73,
-            "building": 130
+            "factory": 53,
+            "building": 83
           },
           "failed": false,
           "errors": 0,
@@ -5968,8 +5968,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
           "profile": {
-            "factory": 118,
-            "building": 290
+            "factory": 83,
+            "building": 189
           },
           "failed": false,
           "errors": 0,
@@ -6011,8 +6011,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/containsNode.js",
           "profile": {
-            "factory": 60,
-            "building": 131,
+            "factory": 46,
+            "building": 83,
             "dependencies": 0
           },
           "failed": false,
@@ -6046,8 +6046,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/findDOMNode.js",
           "profile": {
-            "factory": 80,
-            "building": 298
+            "factory": 53,
+            "building": 199
           },
           "failed": false,
           "errors": 0,
@@ -6089,8 +6089,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
           "profile": {
-            "factory": 119,
-            "building": 290
+            "factory": 83,
+            "building": 190
           },
           "failed": false,
           "errors": 0,
@@ -6123,8 +6123,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
           "profile": {
-            "factory": 119,
-            "building": 293,
+            "factory": 83,
+            "building": 192,
             "dependencies": 1
           },
           "failed": false,
@@ -6176,9 +6176,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/instantiateReactComponent.js",
           "profile": {
-            "factory": 57,
-            "building": 154,
-            "dependencies": 5
+            "factory": 43,
+            "building": 103,
+            "dependencies": 3
           },
           "failed": false,
           "errors": 0,
@@ -6211,8 +6211,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactInjection.js",
           "profile": {
-            "factory": 144,
-            "building": 99,
+            "factory": 98,
+            "building": 64,
             "dependencies": 0
           },
           "failed": false,
@@ -6264,8 +6264,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
           "profile": {
-            "factory": 120,
-            "building": 296,
+            "factory": 84,
+            "building": 196,
             "dependencies": 0
           },
           "failed": false,
@@ -6317,9 +6317,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMTextComponent.js",
           "profile": {
-            "factory": 168,
-            "building": 116,
-            "dependencies": 5
+            "factory": 113,
+            "building": 80,
+            "dependencies": 3
           },
           "failed": false,
           "errors": 0,
@@ -6370,8 +6370,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMComponent.js",
           "profile": {
-            "factory": 227,
-            "building": 58,
+            "factory": 151,
+            "building": 41,
             "dependencies": 0
           },
           "failed": false,
@@ -6405,8 +6405,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMultiChild.js",
           "profile": {
-            "factory": 153,
-            "building": 14,
+            "factory": 99,
+            "building": 9,
             "dependencies": 1
           },
           "failed": false,
@@ -6440,8 +6440,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactChildReconciler.js",
           "profile": {
-            "factory": 28,
-            "building": 4,
+            "factory": 18,
+            "building": 2,
             "dependencies": 1
           },
           "failed": false,
@@ -6475,9 +6475,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 73,
-            "building": 130,
-            "dependencies": 158
+            "factory": 42,
+            "building": 85,
+            "dependencies": 108
           },
           "failed": false,
           "errors": 0,
@@ -6510,8 +6510,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 158,
-            "building": 128,
+            "factory": 108,
+            "building": 86,
             "dependencies": 2
           },
           "failed": false,
@@ -6545,8 +6545,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/BeforeInputEventPlugin.js",
           "profile": {
-            "factory": 215,
-            "building": 64,
+            "factory": 144,
+            "building": 44,
             "dependencies": 1
           },
           "failed": false,
@@ -6616,9 +6616,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/BeforeInputEventPlugin.js",
           "profile": {
-            "factory": 216,
-            "building": 67,
-            "dependencies": 0
+            "factory": 145,
+            "building": 45,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -6651,8 +6651,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/FallbackCompositionState.js",
           "profile": {
-            "factory": 145,
-            "building": 16,
+            "factory": 95,
+            "building": 11,
             "dependencies": 0
           },
           "failed": false,
@@ -6695,8 +6695,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/BeforeInputEventPlugin.js",
           "profile": {
-            "factory": 216,
-            "building": 69,
+            "factory": 145,
+            "building": 47,
             "dependencies": 0
           },
           "failed": false,
@@ -6730,9 +6730,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ChangeEventPlugin.js",
           "profile": {
-            "factory": 209,
-            "building": 80,
-            "dependencies": 1
+            "factory": 139,
+            "building": 53,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -6819,8 +6819,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactEventListener.js",
           "profile": {
-            "factory": 148,
-            "building": 98
+            "factory": 104,
+            "building": 64
           },
           "failed": false,
           "errors": 0,
@@ -6871,9 +6871,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/BeforeInputEventPlugin.js",
           "profile": {
-            "factory": 217,
-            "building": 69,
-            "dependencies": 1
+            "factory": 146,
+            "building": 47,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -6906,9 +6906,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 159,
-            "building": 136,
-            "dependencies": 206
+            "factory": 108,
+            "building": 93,
+            "dependencies": 138
           },
           "failed": false,
           "errors": 0,
@@ -6941,8 +6941,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ChangeEventPlugin.js",
           "profile": {
-            "factory": 211,
-            "building": 80
+            "factory": 141,
+            "building": 53
           },
           "failed": false,
           "errors": 0,
@@ -6984,8 +6984,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 159,
-            "building": 141
+            "factory": 108,
+            "building": 95
           },
           "failed": false,
           "errors": 0,
@@ -7018,9 +7018,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 159,
-            "building": 141,
-            "dependencies": 1
+            "factory": 109,
+            "building": 95,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -7053,9 +7053,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 160,
-            "building": 144,
-            "dependencies": 196
+            "factory": 109,
+            "building": 99,
+            "dependencies": 131
           },
           "failed": false,
           "errors": 0,
@@ -7088,8 +7088,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/EnterLeaveEventPlugin.js",
           "profile": {
-            "factory": 202,
-            "building": 81,
+            "factory": 134,
+            "building": 54,
             "dependencies": 0
           },
           "failed": false,
@@ -7150,9 +7150,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SimpleEventPlugin.js",
           "profile": {
-            "factory": 110,
-            "building": 114,
-            "dependencies": 1
+            "factory": 76,
+            "building": 73,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -7221,8 +7221,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SyntheticMouseEvent.js",
           "profile": {
-            "factory": 126,
-            "building": 17
+            "factory": 84,
+            "building": 10
           },
           "failed": false,
           "errors": 0,
@@ -7273,9 +7273,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 160,
-            "building": 150,
-            "dependencies": 0
+            "factory": 109,
+            "building": 103,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -7308,9 +7308,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 160,
-            "building": 151,
-            "dependencies": 1
+            "factory": 109,
+            "building": 105,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -7343,9 +7343,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 161,
-            "building": 151,
-            "dependencies": 1
+            "factory": 110,
+            "building": 105,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -7450,9 +7450,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 76,
-            "building": 222,
-            "dependencies": 58
+            "factory": 44,
+            "building": 148,
+            "dependencies": 39
           },
           "failed": false,
           "errors": 0,
@@ -7494,8 +7494,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 161,
-            "building": 154,
+            "factory": 110,
+            "building": 106,
             "dependencies": 1
           },
           "failed": false,
@@ -7529,8 +7529,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 162,
-            "building": 156,
+            "factory": 110,
+            "building": 108,
             "dependencies": 1
           },
           "failed": false,
@@ -7564,8 +7564,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMButton.js",
           "profile": {
-            "factory": 191,
-            "building": 85
+            "factory": 125,
+            "building": 57
           },
           "failed": false,
           "errors": 0,
@@ -7625,8 +7625,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/AutoFocusMixin.js",
           "profile": {
-            "factory": 121,
-            "building": 16
+            "factory": 80,
+            "building": 11
           },
           "failed": false,
           "errors": 0,
@@ -7668,9 +7668,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 162,
-            "building": 158,
-            "dependencies": 2
+            "factory": 110,
+            "building": 110,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -7703,9 +7703,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMForm.js",
           "profile": {
-            "factory": 190,
-            "building": 86,
-            "dependencies": 117
+            "factory": 124,
+            "building": 57,
+            "dependencies": 78
           },
           "failed": false,
           "errors": 0,
@@ -7756,9 +7756,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 162,
-            "building": 161,
-            "dependencies": 187
+            "factory": 111,
+            "building": 110,
+            "dependencies": 123
           },
           "failed": false,
           "errors": 0,
@@ -7791,9 +7791,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 163,
-            "building": 168,
-            "dependencies": 179
+            "factory": 111,
+            "building": 115,
+            "dependencies": 118
           },
           "failed": false,
           "errors": 0,
@@ -7826,9 +7826,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 163,
-            "building": 174,
-            "dependencies": 172
+            "factory": 111,
+            "building": 119,
+            "dependencies": 114
           },
           "failed": false,
           "errors": 0,
@@ -7861,8 +7861,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMInput.js",
           "profile": {
-            "factory": 174,
-            "building": 96,
+            "factory": 115,
+            "building": 62,
             "dependencies": 1
           },
           "failed": false,
@@ -7914,9 +7914,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 75,
-            "building": 198,
-            "dependencies": 81
+            "factory": 43,
+            "building": 128,
+            "dependencies": 59
           },
           "failed": false,
           "errors": 0,
@@ -7958,8 +7958,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 164,
-            "building": 178,
+            "factory": 111,
+            "building": 122,
             "dependencies": 1
           },
           "failed": false,
@@ -7993,9 +7993,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 164,
-            "building": 185,
-            "dependencies": 162
+            "factory": 112,
+            "building": 125,
+            "dependencies": 108
           },
           "failed": false,
           "errors": 0,
@@ -8028,9 +8028,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 165,
-            "building": 192,
-            "dependencies": 154
+            "factory": 112,
+            "building": 133,
+            "dependencies": 100
           },
           "failed": false,
           "errors": 0,
@@ -8063,9 +8063,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 165,
-            "building": 199,
-            "dependencies": 2
+            "factory": 112,
+            "building": 128,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -8098,8 +8098,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactEventListener.js",
           "profile": {
-            "factory": 147,
-            "building": 98,
+            "factory": 104,
+            "building": 63,
             "dependencies": 1
           },
           "failed": false,
@@ -8133,8 +8133,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactEventListener.js",
           "profile": {
-            "factory": 148,
-            "building": 99
+            "factory": 105,
+            "building": 63
           },
           "failed": false,
           "errors": 0,
@@ -8167,9 +8167,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 165,
-            "building": 204,
-            "dependencies": 135
+            "factory": 112,
+            "building": 136,
+            "dependencies": 92
           },
           "failed": false,
           "errors": 0,
@@ -8202,9 +8202,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 166,
-            "building": 209,
-            "dependencies": 133
+            "factory": 113,
+            "building": 139,
+            "dependencies": 91
           },
           "failed": false,
           "errors": 0,
@@ -8237,9 +8237,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactReconcileTransaction.js",
           "profile": {
-            "factory": 139,
-            "building": 105,
-            "dependencies": 96
+            "factory": 95,
+            "building": 67,
+            "dependencies": 66
           },
           "failed": false,
           "errors": 0,
@@ -8281,9 +8281,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactInputSelection.js",
           "profile": {
-            "factory": 97,
-            "building": 30,
-            "dependencies": 0
+            "factory": 67,
+            "building": 18,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -8316,8 +8316,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMSelection.js",
           "profile": {
-            "factory": 9,
-            "building": 12
+            "factory": 6,
+            "building": 8
           },
           "failed": false,
           "errors": 0,
@@ -8350,8 +8350,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SelectEventPlugin.js",
           "profile": {
-            "factory": 134,
-            "building": 108
+            "factory": 91,
+            "building": 69
           },
           "failed": false,
           "errors": 0,
@@ -8393,8 +8393,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactReconcileTransaction.js",
           "profile": {
-            "factory": 139,
-            "building": 108,
+            "factory": 95,
+            "building": 69,
             "dependencies": 0
           },
           "failed": false,
@@ -8437,9 +8437,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 166,
-            "building": 215,
-            "dependencies": 133
+            "factory": 113,
+            "building": 143,
+            "dependencies": 91
           },
           "failed": false,
           "errors": 0,
@@ -8472,8 +8472,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SelectEventPlugin.js",
           "profile": {
-            "factory": 134,
-            "building": 109
+            "factory": 92,
+            "building": 69
           },
           "failed": false,
           "errors": 0,
@@ -8506,8 +8506,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 166,
-            "building": 231
+            "factory": 113,
+            "building": 153
           },
           "failed": false,
           "errors": 0,
@@ -8540,9 +8540,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 167,
-            "building": 241,
-            "dependencies": 99
+            "factory": 113,
+            "building": 160,
+            "dependencies": 70
           },
           "failed": false,
           "errors": 0,
@@ -8575,8 +8575,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SimpleEventPlugin.js",
           "profile": {
-            "factory": 108,
-            "building": 109,
+            "factory": 75,
+            "building": 69,
             "dependencies": 0
           },
           "failed": false,
@@ -8610,8 +8610,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SimpleEventPlugin.js",
           "profile": {
-            "factory": 108,
-            "building": 110,
+            "factory": 75,
+            "building": 70,
             "dependencies": 0
           },
           "failed": false,
@@ -8645,9 +8645,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SimpleEventPlugin.js",
           "profile": {
-            "factory": 109,
-            "building": 110,
-            "dependencies": 0
+            "factory": 75,
+            "building": 70,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -8680,9 +8680,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SimpleEventPlugin.js",
           "profile": {
-            "factory": 109,
-            "building": 112,
-            "dependencies": 85
+            "factory": 76,
+            "building": 71,
+            "dependencies": 60
           },
           "failed": false,
           "errors": 0,
@@ -8715,8 +8715,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SimpleEventPlugin.js",
           "profile": {
-            "factory": 111,
-            "building": 116
+            "factory": 76,
+            "building": 74
           },
           "failed": false,
           "errors": 0,
@@ -8767,8 +8767,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SyntheticKeyboardEvent.js",
           "profile": {
-            "factory": 87,
-            "building": 33,
+            "factory": 61,
+            "building": 20,
             "dependencies": 0
           },
           "failed": false,
@@ -8802,9 +8802,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SimpleEventPlugin.js",
           "profile": {
-            "factory": 109,
-            "building": 114,
-            "dependencies": 83
+            "factory": 76,
+            "building": 72,
+            "dependencies": 59
           },
           "failed": false,
           "errors": 0,
@@ -8837,8 +8837,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SimpleEventPlugin.js",
           "profile": {
-            "factory": 110,
-            "building": 116,
+            "factory": 76,
+            "building": 74,
             "dependencies": 0
           },
           "failed": false,
@@ -8872,9 +8872,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 167,
-            "building": 249,
-            "dependencies": 1
+            "factory": 114,
+            "building": 164,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -8907,9 +8907,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 168,
-            "building": 251,
-            "dependencies": 2
+            "factory": 114,
+            "building": 165,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -8942,8 +8942,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
           "profile": {
-            "factory": 168,
-            "building": 262,
+            "factory": 114,
+            "building": 171,
             "dependencies": 1
           },
           "failed": false,
@@ -8977,8 +8977,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultPerf.js",
           "profile": {
-            "factory": 89,
-            "building": 120,
+            "factory": 65,
+            "building": 76,
             "dependencies": 0
           },
           "failed": false,
@@ -9012,8 +9012,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultPerf.js",
           "profile": {
-            "factory": 89,
-            "building": 121
+            "factory": 65,
+            "building": 76
           },
           "failed": false,
           "errors": 0,
@@ -9046,9 +9046,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/performanceNow.js",
           "profile": {
-            "factory": 77,
-            "building": 32,
-            "dependencies": 1
+            "factory": 55,
+            "building": 21,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -9081,9 +9081,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 75,
-            "building": 217,
-            "dependencies": 84
+            "factory": 44,
+            "building": 143,
+            "dependencies": 57
           },
           "failed": false,
           "errors": 0,
@@ -9116,9 +9116,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactServerRendering.js",
           "profile": {
-            "factory": 85,
-            "building": 298,
-            "dependencies": 43
+            "factory": 58,
+            "building": 198,
+            "dependencies": 31
           },
           "failed": false,
           "errors": 0,
@@ -9151,9 +9151,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 77,
-            "building": 223,
-            "dependencies": 49
+            "factory": 45,
+            "building": 149,
+            "dependencies": 33
           },
           "failed": false,
           "errors": 0,
@@ -9186,8 +9186,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
           "profile": {
-            "factory": 73,
-            "building": 765
+            "factory": 47,
+            "building": 488
           },
           "failed": false,
           "errors": 0,
@@ -9247,8 +9247,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
           "profile": {
-            "factory": 73,
-            "building": 766
+            "factory": 47,
+            "building": 489
           },
           "failed": false,
           "errors": 0,
@@ -9308,9 +9308,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
           "profile": {
-            "factory": 74,
-            "building": 769,
-            "dependencies": 107
+            "factory": 47,
+            "building": 491,
+            "dependencies": 64
           },
           "failed": false,
           "errors": 0,
@@ -9361,8 +9361,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
           "profile": {
-            "factory": 72,
-            "building": 764
+            "factory": 46,
+            "building": 488
           },
           "failed": false,
           "errors": 0,
@@ -9440,8 +9440,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
           "profile": {
-            "factory": 74,
-            "building": 773
+            "factory": 48,
+            "building": 493
           },
           "failed": false,
           "errors": 0,
@@ -9501,9 +9501,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
           "profile": {
-            "factory": 74,
-            "building": 775,
-            "dependencies": 101
+            "factory": 48,
+            "building": 493,
+            "dependencies": 62
           },
           "failed": false,
           "errors": 0,
@@ -9536,8 +9536,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
           "profile": {
-            "factory": 75,
-            "building": 776
+            "factory": 48,
+            "building": 495
           },
           "failed": false,
           "errors": 0,
@@ -9615,9 +9615,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
           "profile": {
-            "factory": 56,
-            "building": 168,
-            "dependencies": 348
+            "factory": 36,
+            "building": 104,
+            "dependencies": 227
           },
           "failed": false,
           "errors": 0,
@@ -9659,9 +9659,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/components/todoInput.jsx",
           "profile": {
-            "factory": 628,
-            "building": 2,
-            "dependencies": 3
+            "factory": 403,
+            "building": 1,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -9694,8 +9694,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/style-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/css-loader/index.js?sourceMap!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/less-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/components/todoInput.less",
           "profile": {
-            "factory": 1,
-            "building": 142,
+            "factory": 0,
+            "building": 87,
             "dependencies": 1
           },
           "failed": false,
@@ -9729,8 +9729,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/css-loader/index.js?sourceMap!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/less-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/src/bootstrap.less",
           "profile": {
-            "factory": 91,
-            "building": 660
+            "factory": 55,
+            "building": 400
           },
           "failed": false,
           "errors": 0,
@@ -9799,8 +9799,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/style-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/css-loader/index.js?sourceMap!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/less-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/src/bootstrap.less",
           "profile": {
-            "factory": 189,
-            "building": 393
+            "factory": 132,
+            "building": 245
           },
           "failed": false,
           "errors": 0,
@@ -9869,9 +9869,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
           "profile": {
-            "factory": 58,
-            "building": 228,
-            "dependencies": 288
+            "factory": 37,
+            "building": 141,
+            "dependencies": 189
           },
           "failed": false,
           "errors": 0,
@@ -9904,9 +9904,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/components/todosList.jsx",
           "profile": {
-            "factory": 571,
-            "building": 266,
-            "dependencies": 6
+            "factory": 369,
+            "building": 164,
+            "dependencies": 5
           },
           "failed": false,
           "errors": 0,
@@ -9939,8 +9939,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/components/todoItem.jsx",
           "profile": {
-            "factory": 575,
-            "building": 224
+            "factory": 344,
+            "building": 150
           },
           "failed": false,
           "errors": 0,
@@ -9962,7 +9962,7 @@
           "id": 172,
           "identifier": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/actions.js",
           "name": "./src/todos/actions.js",
-          "size": 512,
+          "size": 519,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -9973,9 +9973,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
           "profile": {
-            "factory": 59,
-            "building": 265,
-            "dependencies": 0
+            "factory": 38,
+            "building": 160,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -10009,7 +10009,7 @@
               "loc": "17:15-35"
             }
           ],
-          "source": "\"use strict\";\n\nvar _interopRequire = require(\"babel-runtime/helpers/interop-require\")[\"default\"];\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar dispatcher = _interopRequire(require(\"../dispatcher\"));\n\nvar ACTION_CREATE = \"create\";\nexports.ACTION_CREATE = ACTION_CREATE;\nvar ACTION_DESTROY = \"destroy\";\n\nexports.ACTION_DESTROY = ACTION_DESTROY;\nexports[\"default\"] = {\n  create: function create(text) {\n    dispatcher.dispatch({\n      actionType: ACTION_CREATE,\n      text: text });\n  } };"
+          "source": "\"use strict\";\n\nvar _interopRequire = require(\"babel-runtime/helpers/interop-require\")[\"default\"];\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar dispatcher = _interopRequire(require(\"../dispatcher\"));\n\nvar ACTION_CREATE = \"create\";\nexports.ACTION_CREATE = ACTION_CREATE;\nvar ACTION_DESTROY = \"destroy\";\n\nexports.ACTION_DESTROY = ACTION_DESTROY;\nexports[\"default\"] = {\n  create: function create(text) {\n    dispatcher.dispatch({\n      actionType: ACTION_CREATE,\n      text: text + text });\n  } };"
         },
         {
           "id": 173,
@@ -10026,8 +10026,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/actions.js",
           "profile": {
-            "factory": 271,
-            "building": 376
+            "factory": 184,
+            "building": 233
           },
           "failed": false,
           "errors": 0,
@@ -10069,8 +10069,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/dispatcher.js",
           "profile": {
-            "factory": 679,
-            "building": 55
+            "factory": 413,
+            "building": 30
           },
           "failed": false,
           "errors": 0,
@@ -10103,8 +10103,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/flux/index.js",
           "profile": {
-            "factory": 262,
-            "building": 41
+            "factory": 177,
+            "building": 26
           },
           "failed": false,
           "errors": 0,
@@ -10137,7 +10137,7 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/flux/lib/Dispatcher.js",
           "profile": {
-            "factory": 313,
+            "factory": 212,
             "building": 29
           },
           "failed": false,
@@ -10171,9 +10171,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/components/todoItem.jsx",
           "profile": {
-            "factory": 18,
+            "factory": 12,
             "building": 2,
-            "dependencies": 2
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -10207,8 +10207,8 @@
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/style-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/css-loader/index.js?sourceMap!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/less-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/components/todoItem.less",
           "profile": {
             "factory": 1,
-            "building": 557,
-            "dependencies": 1
+            "building": 331,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -10241,9 +10241,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/components/todosList.jsx",
           "profile": {
-            "factory": 572,
-            "building": 2,
-            "dependencies": 2
+            "factory": 369,
+            "building": 1,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -10277,7 +10277,7 @@
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/style-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/css-loader/index.js?sourceMap!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/less-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/components/todosList.less",
           "profile": {
             "factory": 1,
-            "building": 272,
+            "building": 169,
             "dependencies": 0
           },
           "failed": false,
@@ -10311,9 +10311,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
           "profile": {
-            "factory": 59,
-            "building": 336,
-            "dependencies": 200
+            "factory": 38,
+            "building": 203,
+            "dependencies": 141
           },
           "failed": false,
           "errors": 0,
@@ -10346,8 +10346,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/store.js",
           "profile": {
-            "factory": 556,
-            "building": 211
+            "factory": 362,
+            "building": 133
           },
           "failed": false,
           "errors": 0,
@@ -10380,8 +10380,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/store.js",
           "profile": {
-            "factory": 558,
-            "building": 658
+            "factory": 363,
+            "building": 399
           },
           "failed": false,
           "errors": 0,
@@ -10414,8 +10414,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/lodash/index.js",
           "profile": {
-            "factory": 95,
-            "building": 297
+            "factory": 56,
+            "building": 199
           },
           "failed": false,
           "errors": 0,
@@ -10448,8 +10448,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
           "profile": {
-            "factory": 401,
-            "building": 7
+            "factory": 245,
+            "building": 6
           },
           "failed": false,
           "errors": 0,
@@ -10483,7 +10483,7 @@
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/style-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/css-loader/index.js?sourceMap!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/less-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/src/bootstrap.less",
           "profile": {
             "factory": 1,
-            "building": 473
+            "building": 310
           },
           "failed": false,
           "errors": 0,
@@ -10516,9 +10516,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
           "profile": {
-            "factory": 563,
-            "building": 3,
-            "dependencies": 32
+            "factory": 361,
+            "building": 2,
+            "dependencies": 21
           },
           "failed": false,
           "errors": 0,
@@ -10551,9 +10551,9 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/style-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/css-loader/index.js?sourceMap!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/less-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.less",
           "profile": {
-            "factory": 2,
-            "building": 379,
-            "dependencies": 26
+            "factory": 1,
+            "building": 236,
+            "dependencies": 17
           },
           "failed": false,
           "errors": 0,
@@ -10586,8 +10586,8 @@
           "assets": [],
           "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/css-loader/index.js?sourceMap!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/less-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.less",
           "profile": {
-            "factory": 704,
-            "building": 56
+            "factory": 428,
+            "building": 31
           },
           "failed": false,
           "errors": 0,
@@ -10636,8 +10636,8 @@
       "assets": [],
       "issuer": null,
       "profile": {
-        "factory": 34,
-        "building": 1143
+        "factory": 26,
+        "building": 736
       },
       "failed": false,
       "errors": 0,
@@ -10660,8 +10660,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
       "profile": {
-        "factory": 76,
-        "building": 787
+        "factory": 49,
+        "building": 501
       },
       "failed": false,
       "errors": 0,
@@ -10721,8 +10721,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/react.js",
       "profile": {
-        "factory": 93,
-        "building": 664
+        "factory": 56,
+        "building": 403
       },
       "failed": false,
       "errors": 0,
@@ -10755,8 +10755,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 84,
-        "building": 298
+        "factory": 49,
+        "building": 199
       },
       "failed": false,
       "errors": 0,
@@ -11311,9 +11311,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 50,
-        "building": 45,
-        "dependencies": 2
+        "factory": 30,
+        "building": 25,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -11364,8 +11364,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/EventPluginUtils.js",
       "profile": {
-        "factory": 252,
-        "building": 43,
+        "factory": 171,
+        "building": 27,
         "dependencies": 0
       },
       "failed": false,
@@ -11498,8 +11498,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactClass.js",
       "profile": {
-        "factory": 214,
-        "building": 85,
+        "factory": 148,
+        "building": 60,
         "dependencies": 1
       },
       "failed": false,
@@ -11569,8 +11569,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/EventPluginUtils.js",
       "profile": {
-        "factory": 253,
-        "building": 44,
+        "factory": 171,
+        "building": 29,
         "dependencies": 0
       },
       "failed": false,
@@ -11946,9 +11946,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 51,
-        "building": 50,
-        "dependencies": 2
+        "factory": 31,
+        "building": 28,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -11981,8 +11981,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactChildren.js",
       "profile": {
-        "factory": 249,
-        "building": 45,
+        "factory": 168,
+        "building": 31,
         "dependencies": 0
       },
       "failed": false,
@@ -12088,9 +12088,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactChildren.js",
       "profile": {
-        "factory": 249,
-        "building": 51,
-        "dependencies": 1
+        "factory": 169,
+        "building": 36,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -12150,9 +12150,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 55,
-        "building": 111,
-        "dependencies": 186
+        "factory": 41,
+        "building": 58,
+        "dependencies": 130
       },
       "failed": false,
       "errors": 0,
@@ -12383,9 +12383,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 54,
-        "building": 99,
-        "dependencies": 199
+        "factory": 32,
+        "building": 58,
+        "dependencies": 139
       },
       "failed": false,
       "errors": 0,
@@ -12436,8 +12436,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 76,
-        "building": 220
+        "factory": 44,
+        "building": 146
       },
       "failed": false,
       "errors": 0,
@@ -12677,9 +12677,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactContext.js",
       "profile": {
-        "factory": 204,
-        "building": 87,
-        "dependencies": 0
+        "factory": 143,
+        "building": 60,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -12739,8 +12739,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactChildren.js",
       "profile": {
-        "factory": 250,
-        "building": 61,
+        "factory": 169,
+        "building": 44,
         "dependencies": 0
       },
       "failed": false,
@@ -12963,8 +12963,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactPropTypes.js",
       "profile": {
-        "factory": 104,
-        "building": 295
+        "factory": 73,
+        "building": 197
       },
       "failed": false,
       "errors": 0,
@@ -13060,8 +13060,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 54,
-        "building": 100
+        "factory": 32,
+        "building": 59
       },
       "failed": false,
       "errors": 0,
@@ -13166,9 +13166,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactChildren.js",
       "profile": {
-        "factory": 250,
-        "building": 57,
-        "dependencies": 2
+        "factory": 169,
+        "building": 42,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -13210,8 +13210,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactElementValidator.js",
       "profile": {
-        "factory": 178,
-        "building": 89
+        "factory": 120,
+        "building": 63
       },
       "failed": false,
       "errors": 0,
@@ -13253,9 +13253,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 73,
-        "building": 155,
-        "dependencies": 121
+        "factory": 42,
+        "building": 101,
+        "dependencies": 84
       },
       "failed": false,
       "errors": 0,
@@ -13333,8 +13333,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactInstanceHandles.js",
       "profile": {
-        "factory": 143,
-        "building": 264
+        "factory": 98,
+        "building": 173
       },
       "failed": false,
       "errors": 0,
@@ -13376,9 +13376,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 52,
-        "building": 59,
-        "dependencies": 240
+        "factory": 31,
+        "building": 33,
+        "dependencies": 164
       },
       "failed": false,
       "errors": 0,
@@ -13420,9 +13420,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactComponent.js",
       "profile": {
-        "factory": 242,
-        "building": 82,
-        "dependencies": 3
+        "factory": 165,
+        "building": 58,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -13473,9 +13473,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
       "profile": {
-        "factory": 118,
-        "building": 286,
-        "dependencies": 56
+        "factory": 83,
+        "building": 187,
+        "dependencies": 43
       },
       "failed": false,
       "errors": 0,
@@ -13589,9 +13589,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactReconcileTransaction.js",
       "profile": {
-        "factory": 138,
-        "building": 101,
-        "dependencies": 1
+        "factory": 94,
+        "building": 66,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -13642,8 +13642,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 74,
-        "building": 192,
+        "factory": 43,
+        "building": 123,
         "dependencies": 0
       },
       "failed": false,
@@ -13740,9 +13740,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 75,
-        "building": 212,
-        "dependencies": 1
+        "factory": 44,
+        "building": 139,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -13820,8 +13820,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactReconciler.js",
       "profile": {
-        "factory": 90,
-        "building": 296
+        "factory": 61,
+        "building": 198
       },
       "failed": false,
       "errors": 0,
@@ -13854,8 +13854,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactRef.js",
       "profile": {
-        "factory": 52,
-        "building": 161,
+        "factory": 37,
+        "building": 107,
         "dependencies": 0
       },
       "failed": false,
@@ -13889,9 +13889,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 71,
-        "building": 110,
-        "dependencies": 175
+        "factory": 41,
+        "building": 72,
+        "dependencies": 119
       },
       "failed": false,
       "errors": 0,
@@ -13960,8 +13960,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactClass.js",
       "profile": {
-        "factory": 213,
-        "building": 85,
+        "factory": 148,
+        "building": 60,
         "dependencies": 0
       },
       "failed": false,
@@ -14013,8 +14013,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactClass.js",
       "profile": {
-        "factory": 211,
-        "building": 85,
+        "factory": 146,
+        "building": 60,
         "dependencies": 0
       },
       "failed": false,
@@ -14075,8 +14075,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactElementValidator.js",
       "profile": {
-        "factory": 177,
-        "building": 88,
+        "factory": 120,
+        "building": 62,
         "dependencies": 1
       },
       "failed": false,
@@ -14137,8 +14137,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultBatchingStrategy.js",
       "profile": {
-        "factory": 193,
-        "building": 85,
+        "factory": 127,
+        "building": 56,
         "dependencies": 0
       },
       "failed": false,
@@ -14199,8 +14199,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactClass.js",
       "profile": {
-        "factory": 213,
-        "building": 85
+        "factory": 147,
+        "building": 60
       },
       "failed": false,
       "errors": 0,
@@ -14251,8 +14251,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactClass.js",
       "profile": {
-        "factory": 212,
-        "building": 85
+        "factory": 147,
+        "building": 60
       },
       "failed": false,
       "errors": 0,
@@ -14330,9 +14330,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 53,
-        "building": 90,
-        "dependencies": 210
+        "factory": 31,
+        "building": 53,
+        "dependencies": 145
       },
       "failed": false,
       "errors": 0,
@@ -14464,8 +14464,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactClass.js",
       "profile": {
-        "factory": 212,
-        "building": 85
+        "factory": 147,
+        "building": 60
       },
       "failed": false,
       "errors": 0,
@@ -14498,8 +14498,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactClass.js",
       "profile": {
-        "factory": 214,
-        "building": 86
+        "factory": 148,
+        "building": 61
       },
       "failed": false,
       "errors": 0,
@@ -14595,8 +14595,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 72,
-        "building": 115,
+        "factory": 42,
+        "building": 75,
         "dependencies": 1
       },
       "failed": false,
@@ -14630,8 +14630,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOM.js",
       "profile": {
-        "factory": 172,
-        "building": 90
+        "factory": 117,
+        "building": 63
       },
       "failed": false,
       "errors": 0,
@@ -14664,8 +14664,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 72,
-        "building": 120,
+        "factory": 42,
+        "building": 79,
         "dependencies": 2
       },
       "failed": false,
@@ -14708,8 +14708,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMTextComponent.js",
       "profile": {
-        "factory": 167,
-        "building": 96,
+        "factory": 113,
+        "building": 66,
         "dependencies": 1
       },
       "failed": false,
@@ -14779,8 +14779,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
       "profile": {
-        "factory": 116,
-        "building": 268,
+        "factory": 82,
+        "building": 175,
         "dependencies": 0
       },
       "failed": false,
@@ -14868,8 +14868,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/DOMPropertyOperations.js",
       "profile": {
-        "factory": 247,
-        "building": 42,
+        "factory": 164,
+        "building": 29,
         "dependencies": 1
       },
       "failed": false,
@@ -14903,8 +14903,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMTextComponent.js",
       "profile": {
-        "factory": 169,
-        "building": 121
+        "factory": 114,
+        "building": 82
       },
       "failed": false,
       "errors": 0,
@@ -14964,8 +14964,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMTextComponent.js",
       "profile": {
-        "factory": 168,
-        "building": 97,
+        "factory": 113,
+        "building": 68,
         "dependencies": 0
       },
       "failed": false,
@@ -15017,9 +15017,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 163,
-        "building": 165,
-        "dependencies": 171
+        "factory": 111,
+        "building": 113,
+        "dependencies": 113
       },
       "failed": false,
       "errors": 0,
@@ -15061,9 +15061,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMComponent.js",
       "profile": {
-        "factory": 226,
-        "building": 49,
-        "dependencies": 3
+        "factory": 150,
+        "building": 36,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -15105,8 +15105,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/CSSPropertyOperations.js",
       "profile": {
-        "factory": 161,
-        "building": 11
+        "factory": 103,
+        "building": 7
       },
       "failed": false,
       "errors": 0,
@@ -15148,8 +15148,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 77,
-        "building": 224
+        "factory": 45,
+        "building": 149
       },
       "failed": false,
       "errors": 0,
@@ -15317,8 +15317,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/CSSPropertyOperations.js",
       "profile": {
-        "factory": 161,
-        "building": 11
+        "factory": 103,
+        "building": 8
       },
       "failed": false,
       "errors": 0,
@@ -15351,8 +15351,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/camelizeStyleName.js",
       "profile": {
-        "factory": 33,
-        "building": 3
+        "factory": 20,
+        "building": 2
       },
       "failed": false,
       "errors": 0,
@@ -15385,9 +15385,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/CSSPropertyOperations.js",
       "profile": {
-        "factory": 162,
-        "building": 12,
-        "dependencies": 0
+        "factory": 103,
+        "building": 8,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -15420,8 +15420,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/CSSPropertyOperations.js",
       "profile": {
-        "factory": 162,
-        "building": 12
+        "factory": 104,
+        "building": 8
       },
       "failed": false,
       "errors": 0,
@@ -15454,7 +15454,7 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/hyphenateStyleName.js",
       "profile": {
-        "factory": 32,
+        "factory": 19,
         "building": 2
       },
       "failed": false,
@@ -15488,8 +15488,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/CSSPropertyOperations.js",
       "profile": {
-        "factory": 163,
-        "building": 12
+        "factory": 104,
+        "building": 8
       },
       "failed": false,
       "errors": 0,
@@ -15522,9 +15522,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMIDOperations.js",
       "profile": {
-        "factory": 182,
-        "building": 91,
-        "dependencies": 110
+        "factory": 121,
+        "building": 59,
+        "dependencies": 73
       },
       "failed": false,
       "errors": 0,
@@ -15557,9 +15557,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/DOMChildrenOperations.js",
       "profile": {
-        "factory": 114,
-        "building": 23,
-        "dependencies": 2
+        "factory": 76,
+        "building": 15,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -15592,9 +15592,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/Danger.js",
       "profile": {
-        "factory": 16,
-        "building": 7,
-        "dependencies": 2
+        "factory": 10,
+        "building": 4,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -15627,7 +15627,7 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/createNodesFromMarkup.js",
       "profile": {
-        "factory": 7,
+        "factory": 5,
         "building": 1
       },
       "failed": false,
@@ -15661,9 +15661,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/createArrayFromMixed.js",
       "profile": {
-        "factory": 1,
+        "factory": 0,
         "building": 2,
-        "dependencies": 1
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -15696,9 +15696,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/Danger.js",
       "profile": {
-        "factory": 17,
-        "building": 10,
-        "dependencies": 1
+        "factory": 10,
+        "building": 7,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -15740,8 +15740,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMultiChild.js",
       "profile": {
-        "factory": 152,
-        "building": 13,
+        "factory": 98,
+        "building": 9,
         "dependencies": 0
       },
       "failed": false,
@@ -15784,8 +15784,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/DOMChildrenOperations.js",
       "profile": {
-        "factory": 115,
-        "building": 25,
+        "factory": 77,
+        "building": 15,
         "dependencies": 1
       },
       "failed": false,
@@ -15819,8 +15819,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
       "profile": {
-        "factory": 120,
-        "building": 294,
+        "factory": 84,
+        "building": 194,
         "dependencies": 0
       },
       "failed": false,
@@ -15872,9 +15872,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 74,
-        "building": 181,
-        "dependencies": 102
+        "factory": 43,
+        "building": 117,
+        "dependencies": 73
       },
       "failed": false,
       "errors": 0,
@@ -15988,9 +15988,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
       "profile": {
-        "factory": 116,
-        "building": 273,
-        "dependencies": 62
+        "factory": 82,
+        "building": 178,
+        "dependencies": 47
       },
       "failed": false,
       "errors": 0,
@@ -16068,9 +16068,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ChangeEventPlugin.js",
       "profile": {
-        "factory": 208,
-        "building": 75,
-        "dependencies": 135
+        "factory": 139,
+        "building": 50,
+        "dependencies": 89
       },
       "failed": false,
       "errors": 0,
@@ -16139,8 +16139,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactBrowserEventEmitter.js",
       "profile": {
-        "factory": 78,
-        "building": 128,
+        "factory": 57,
+        "building": 82,
         "dependencies": 0
       },
       "failed": false,
@@ -16183,9 +16183,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/EventPropagators.js",
       "profile": {
-        "factory": 147,
-        "building": 16,
-        "dependencies": 1
+        "factory": 96,
+        "building": 11,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -16236,8 +16236,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/EventPropagators.js",
       "profile": {
-        "factory": 148,
-        "building": 16
+        "factory": 97,
+        "building": 10
       },
       "failed": false,
       "errors": 0,
@@ -16288,8 +16288,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactBrowserEventEmitter.js",
       "profile": {
-        "factory": 78,
-        "building": 130,
+        "factory": 57,
+        "building": 83,
         "dependencies": 0
       },
       "failed": false,
@@ -16323,8 +16323,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactBrowserEventEmitter.js",
       "profile": {
-        "factory": 79,
-        "building": 130
+        "factory": 58,
+        "building": 82
       },
       "failed": false,
       "errors": 0,
@@ -16366,8 +16366,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMComponent.js",
       "profile": {
-        "factory": 227,
-        "building": 61,
+        "factory": 151,
+        "building": 42,
         "dependencies": 1
       },
       "failed": false,
@@ -16419,8 +16419,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
       "profile": {
-        "factory": 116,
-        "building": 277,
+        "factory": 82,
+        "building": 181,
         "dependencies": 1
       },
       "failed": false,
@@ -16472,8 +16472,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
       "profile": {
-        "factory": 117,
-        "building": 278
+        "factory": 82,
+        "building": 183
       },
       "failed": false,
       "errors": 0,
@@ -16515,8 +16515,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMarkupChecksum.js",
       "profile": {
-        "factory": 73,
-        "building": 130
+        "factory": 53,
+        "building": 83
       },
       "failed": false,
       "errors": 0,
@@ -16549,8 +16549,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
       "profile": {
-        "factory": 118,
-        "building": 290
+        "factory": 83,
+        "building": 189
       },
       "failed": false,
       "errors": 0,
@@ -16592,8 +16592,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/containsNode.js",
       "profile": {
-        "factory": 60,
-        "building": 131,
+        "factory": 46,
+        "building": 83,
         "dependencies": 0
       },
       "failed": false,
@@ -16627,8 +16627,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/findDOMNode.js",
       "profile": {
-        "factory": 80,
-        "building": 298
+        "factory": 53,
+        "building": 199
       },
       "failed": false,
       "errors": 0,
@@ -16670,8 +16670,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
       "profile": {
-        "factory": 119,
-        "building": 290
+        "factory": 83,
+        "building": 190
       },
       "failed": false,
       "errors": 0,
@@ -16704,8 +16704,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
       "profile": {
-        "factory": 119,
-        "building": 293,
+        "factory": 83,
+        "building": 192,
         "dependencies": 1
       },
       "failed": false,
@@ -16757,9 +16757,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/instantiateReactComponent.js",
       "profile": {
-        "factory": 57,
-        "building": 154,
-        "dependencies": 5
+        "factory": 43,
+        "building": 103,
+        "dependencies": 3
       },
       "failed": false,
       "errors": 0,
@@ -16792,8 +16792,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactInjection.js",
       "profile": {
-        "factory": 144,
-        "building": 99,
+        "factory": 98,
+        "building": 64,
         "dependencies": 0
       },
       "failed": false,
@@ -16845,8 +16845,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMount.js",
       "profile": {
-        "factory": 120,
-        "building": 296,
+        "factory": 84,
+        "building": 196,
         "dependencies": 0
       },
       "failed": false,
@@ -16898,9 +16898,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMTextComponent.js",
       "profile": {
-        "factory": 168,
-        "building": 116,
-        "dependencies": 5
+        "factory": 113,
+        "building": 80,
+        "dependencies": 3
       },
       "failed": false,
       "errors": 0,
@@ -16951,8 +16951,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMComponent.js",
       "profile": {
-        "factory": 227,
-        "building": 58,
+        "factory": 151,
+        "building": 41,
         "dependencies": 0
       },
       "failed": false,
@@ -16986,8 +16986,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactMultiChild.js",
       "profile": {
-        "factory": 153,
-        "building": 14,
+        "factory": 99,
+        "building": 9,
         "dependencies": 1
       },
       "failed": false,
@@ -17021,8 +17021,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactChildReconciler.js",
       "profile": {
-        "factory": 28,
-        "building": 4,
+        "factory": 18,
+        "building": 2,
         "dependencies": 1
       },
       "failed": false,
@@ -17056,9 +17056,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 73,
-        "building": 130,
-        "dependencies": 158
+        "factory": 42,
+        "building": 85,
+        "dependencies": 108
       },
       "failed": false,
       "errors": 0,
@@ -17091,8 +17091,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 158,
-        "building": 128,
+        "factory": 108,
+        "building": 86,
         "dependencies": 2
       },
       "failed": false,
@@ -17126,8 +17126,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/BeforeInputEventPlugin.js",
       "profile": {
-        "factory": 215,
-        "building": 64,
+        "factory": 144,
+        "building": 44,
         "dependencies": 1
       },
       "failed": false,
@@ -17197,9 +17197,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/BeforeInputEventPlugin.js",
       "profile": {
-        "factory": 216,
-        "building": 67,
-        "dependencies": 0
+        "factory": 145,
+        "building": 45,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -17232,8 +17232,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/FallbackCompositionState.js",
       "profile": {
-        "factory": 145,
-        "building": 16,
+        "factory": 95,
+        "building": 11,
         "dependencies": 0
       },
       "failed": false,
@@ -17276,8 +17276,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/BeforeInputEventPlugin.js",
       "profile": {
-        "factory": 216,
-        "building": 69,
+        "factory": 145,
+        "building": 47,
         "dependencies": 0
       },
       "failed": false,
@@ -17311,9 +17311,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ChangeEventPlugin.js",
       "profile": {
-        "factory": 209,
-        "building": 80,
-        "dependencies": 1
+        "factory": 139,
+        "building": 53,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -17400,8 +17400,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactEventListener.js",
       "profile": {
-        "factory": 148,
-        "building": 98
+        "factory": 104,
+        "building": 64
       },
       "failed": false,
       "errors": 0,
@@ -17452,9 +17452,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/BeforeInputEventPlugin.js",
       "profile": {
-        "factory": 217,
-        "building": 69,
-        "dependencies": 1
+        "factory": 146,
+        "building": 47,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -17487,9 +17487,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 159,
-        "building": 136,
-        "dependencies": 206
+        "factory": 108,
+        "building": 93,
+        "dependencies": 138
       },
       "failed": false,
       "errors": 0,
@@ -17522,8 +17522,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ChangeEventPlugin.js",
       "profile": {
-        "factory": 211,
-        "building": 80
+        "factory": 141,
+        "building": 53
       },
       "failed": false,
       "errors": 0,
@@ -17565,8 +17565,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 159,
-        "building": 141
+        "factory": 108,
+        "building": 95
       },
       "failed": false,
       "errors": 0,
@@ -17599,9 +17599,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 159,
-        "building": 141,
-        "dependencies": 1
+        "factory": 109,
+        "building": 95,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -17634,9 +17634,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 160,
-        "building": 144,
-        "dependencies": 196
+        "factory": 109,
+        "building": 99,
+        "dependencies": 131
       },
       "failed": false,
       "errors": 0,
@@ -17669,8 +17669,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/EnterLeaveEventPlugin.js",
       "profile": {
-        "factory": 202,
-        "building": 81,
+        "factory": 134,
+        "building": 54,
         "dependencies": 0
       },
       "failed": false,
@@ -17731,9 +17731,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SimpleEventPlugin.js",
       "profile": {
-        "factory": 110,
-        "building": 114,
-        "dependencies": 1
+        "factory": 76,
+        "building": 73,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -17802,8 +17802,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SyntheticMouseEvent.js",
       "profile": {
-        "factory": 126,
-        "building": 17
+        "factory": 84,
+        "building": 10
       },
       "failed": false,
       "errors": 0,
@@ -17854,9 +17854,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 160,
-        "building": 150,
-        "dependencies": 0
+        "factory": 109,
+        "building": 103,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -17889,9 +17889,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 160,
-        "building": 151,
-        "dependencies": 1
+        "factory": 109,
+        "building": 105,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -17924,9 +17924,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 161,
-        "building": 151,
-        "dependencies": 1
+        "factory": 110,
+        "building": 105,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -18031,9 +18031,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 76,
-        "building": 222,
-        "dependencies": 58
+        "factory": 44,
+        "building": 148,
+        "dependencies": 39
       },
       "failed": false,
       "errors": 0,
@@ -18075,8 +18075,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 161,
-        "building": 154,
+        "factory": 110,
+        "building": 106,
         "dependencies": 1
       },
       "failed": false,
@@ -18110,8 +18110,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 162,
-        "building": 156,
+        "factory": 110,
+        "building": 108,
         "dependencies": 1
       },
       "failed": false,
@@ -18145,8 +18145,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMButton.js",
       "profile": {
-        "factory": 191,
-        "building": 85
+        "factory": 125,
+        "building": 57
       },
       "failed": false,
       "errors": 0,
@@ -18206,8 +18206,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/AutoFocusMixin.js",
       "profile": {
-        "factory": 121,
-        "building": 16
+        "factory": 80,
+        "building": 11
       },
       "failed": false,
       "errors": 0,
@@ -18249,9 +18249,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 162,
-        "building": 158,
-        "dependencies": 2
+        "factory": 110,
+        "building": 110,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -18284,9 +18284,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMForm.js",
       "profile": {
-        "factory": 190,
-        "building": 86,
-        "dependencies": 117
+        "factory": 124,
+        "building": 57,
+        "dependencies": 78
       },
       "failed": false,
       "errors": 0,
@@ -18337,9 +18337,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 162,
-        "building": 161,
-        "dependencies": 187
+        "factory": 111,
+        "building": 110,
+        "dependencies": 123
       },
       "failed": false,
       "errors": 0,
@@ -18372,9 +18372,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 163,
-        "building": 168,
-        "dependencies": 179
+        "factory": 111,
+        "building": 115,
+        "dependencies": 118
       },
       "failed": false,
       "errors": 0,
@@ -18407,9 +18407,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 163,
-        "building": 174,
-        "dependencies": 172
+        "factory": 111,
+        "building": 119,
+        "dependencies": 114
       },
       "failed": false,
       "errors": 0,
@@ -18442,8 +18442,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMInput.js",
       "profile": {
-        "factory": 174,
-        "building": 96,
+        "factory": 115,
+        "building": 62,
         "dependencies": 1
       },
       "failed": false,
@@ -18495,9 +18495,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 75,
-        "building": 198,
-        "dependencies": 81
+        "factory": 43,
+        "building": 128,
+        "dependencies": 59
       },
       "failed": false,
       "errors": 0,
@@ -18539,8 +18539,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 164,
-        "building": 178,
+        "factory": 111,
+        "building": 122,
         "dependencies": 1
       },
       "failed": false,
@@ -18574,9 +18574,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 164,
-        "building": 185,
-        "dependencies": 162
+        "factory": 112,
+        "building": 125,
+        "dependencies": 108
       },
       "failed": false,
       "errors": 0,
@@ -18609,9 +18609,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 165,
-        "building": 192,
-        "dependencies": 154
+        "factory": 112,
+        "building": 133,
+        "dependencies": 100
       },
       "failed": false,
       "errors": 0,
@@ -18644,9 +18644,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 165,
-        "building": 199,
-        "dependencies": 2
+        "factory": 112,
+        "building": 128,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -18679,8 +18679,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactEventListener.js",
       "profile": {
-        "factory": 147,
-        "building": 98,
+        "factory": 104,
+        "building": 63,
         "dependencies": 1
       },
       "failed": false,
@@ -18714,8 +18714,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactEventListener.js",
       "profile": {
-        "factory": 148,
-        "building": 99
+        "factory": 105,
+        "building": 63
       },
       "failed": false,
       "errors": 0,
@@ -18748,9 +18748,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 165,
-        "building": 204,
-        "dependencies": 135
+        "factory": 112,
+        "building": 136,
+        "dependencies": 92
       },
       "failed": false,
       "errors": 0,
@@ -18783,9 +18783,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 166,
-        "building": 209,
-        "dependencies": 133
+        "factory": 113,
+        "building": 139,
+        "dependencies": 91
       },
       "failed": false,
       "errors": 0,
@@ -18818,9 +18818,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactReconcileTransaction.js",
       "profile": {
-        "factory": 139,
-        "building": 105,
-        "dependencies": 96
+        "factory": 95,
+        "building": 67,
+        "dependencies": 66
       },
       "failed": false,
       "errors": 0,
@@ -18862,9 +18862,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactInputSelection.js",
       "profile": {
-        "factory": 97,
-        "building": 30,
-        "dependencies": 0
+        "factory": 67,
+        "building": 18,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -18897,8 +18897,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDOMSelection.js",
       "profile": {
-        "factory": 9,
-        "building": 12
+        "factory": 6,
+        "building": 8
       },
       "failed": false,
       "errors": 0,
@@ -18931,8 +18931,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SelectEventPlugin.js",
       "profile": {
-        "factory": 134,
-        "building": 108
+        "factory": 91,
+        "building": 69
       },
       "failed": false,
       "errors": 0,
@@ -18974,8 +18974,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactReconcileTransaction.js",
       "profile": {
-        "factory": 139,
-        "building": 108,
+        "factory": 95,
+        "building": 69,
         "dependencies": 0
       },
       "failed": false,
@@ -19018,9 +19018,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 166,
-        "building": 215,
-        "dependencies": 133
+        "factory": 113,
+        "building": 143,
+        "dependencies": 91
       },
       "failed": false,
       "errors": 0,
@@ -19053,8 +19053,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SelectEventPlugin.js",
       "profile": {
-        "factory": 134,
-        "building": 109
+        "factory": 92,
+        "building": 69
       },
       "failed": false,
       "errors": 0,
@@ -19087,8 +19087,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 166,
-        "building": 231
+        "factory": 113,
+        "building": 153
       },
       "failed": false,
       "errors": 0,
@@ -19121,9 +19121,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 167,
-        "building": 241,
-        "dependencies": 99
+        "factory": 113,
+        "building": 160,
+        "dependencies": 70
       },
       "failed": false,
       "errors": 0,
@@ -19156,8 +19156,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SimpleEventPlugin.js",
       "profile": {
-        "factory": 108,
-        "building": 109,
+        "factory": 75,
+        "building": 69,
         "dependencies": 0
       },
       "failed": false,
@@ -19191,8 +19191,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SimpleEventPlugin.js",
       "profile": {
-        "factory": 108,
-        "building": 110,
+        "factory": 75,
+        "building": 70,
         "dependencies": 0
       },
       "failed": false,
@@ -19226,9 +19226,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SimpleEventPlugin.js",
       "profile": {
-        "factory": 109,
-        "building": 110,
-        "dependencies": 0
+        "factory": 75,
+        "building": 70,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -19261,9 +19261,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SimpleEventPlugin.js",
       "profile": {
-        "factory": 109,
-        "building": 112,
-        "dependencies": 85
+        "factory": 76,
+        "building": 71,
+        "dependencies": 60
       },
       "failed": false,
       "errors": 0,
@@ -19296,8 +19296,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SimpleEventPlugin.js",
       "profile": {
-        "factory": 111,
-        "building": 116
+        "factory": 76,
+        "building": 74
       },
       "failed": false,
       "errors": 0,
@@ -19348,8 +19348,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SyntheticKeyboardEvent.js",
       "profile": {
-        "factory": 87,
-        "building": 33,
+        "factory": 61,
+        "building": 20,
         "dependencies": 0
       },
       "failed": false,
@@ -19383,9 +19383,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SimpleEventPlugin.js",
       "profile": {
-        "factory": 109,
-        "building": 114,
-        "dependencies": 83
+        "factory": 76,
+        "building": 72,
+        "dependencies": 59
       },
       "failed": false,
       "errors": 0,
@@ -19418,8 +19418,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/SimpleEventPlugin.js",
       "profile": {
-        "factory": 110,
-        "building": 116,
+        "factory": 76,
+        "building": 74,
         "dependencies": 0
       },
       "failed": false,
@@ -19453,9 +19453,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 167,
-        "building": 249,
-        "dependencies": 1
+        "factory": 114,
+        "building": 164,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -19488,9 +19488,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 168,
-        "building": 251,
-        "dependencies": 2
+        "factory": 114,
+        "building": 165,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -19523,8 +19523,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultInjection.js",
       "profile": {
-        "factory": 168,
-        "building": 262,
+        "factory": 114,
+        "building": 171,
         "dependencies": 1
       },
       "failed": false,
@@ -19558,8 +19558,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultPerf.js",
       "profile": {
-        "factory": 89,
-        "building": 120,
+        "factory": 65,
+        "building": 76,
         "dependencies": 0
       },
       "failed": false,
@@ -19593,8 +19593,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactDefaultPerf.js",
       "profile": {
-        "factory": 89,
-        "building": 121
+        "factory": 65,
+        "building": 76
       },
       "failed": false,
       "errors": 0,
@@ -19627,9 +19627,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/performanceNow.js",
       "profile": {
-        "factory": 77,
-        "building": 32,
-        "dependencies": 1
+        "factory": 55,
+        "building": 21,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -19662,9 +19662,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 75,
-        "building": 217,
-        "dependencies": 84
+        "factory": 44,
+        "building": 143,
+        "dependencies": 57
       },
       "failed": false,
       "errors": 0,
@@ -19697,9 +19697,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/ReactServerRendering.js",
       "profile": {
-        "factory": 85,
-        "building": 298,
-        "dependencies": 43
+        "factory": 58,
+        "building": 198,
+        "dependencies": 31
       },
       "failed": false,
       "errors": 0,
@@ -19732,9 +19732,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 77,
-        "building": 223,
-        "dependencies": 49
+        "factory": 45,
+        "building": 149,
+        "dependencies": 33
       },
       "failed": false,
       "errors": 0,
@@ -19767,8 +19767,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
       "profile": {
-        "factory": 73,
-        "building": 765
+        "factory": 47,
+        "building": 488
       },
       "failed": false,
       "errors": 0,
@@ -19828,8 +19828,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
       "profile": {
-        "factory": 73,
-        "building": 766
+        "factory": 47,
+        "building": 489
       },
       "failed": false,
       "errors": 0,
@@ -19889,9 +19889,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
       "profile": {
-        "factory": 74,
-        "building": 769,
-        "dependencies": 107
+        "factory": 47,
+        "building": 491,
+        "dependencies": 64
       },
       "failed": false,
       "errors": 0,
@@ -19942,8 +19942,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
       "profile": {
-        "factory": 72,
-        "building": 764
+        "factory": 46,
+        "building": 488
       },
       "failed": false,
       "errors": 0,
@@ -20021,8 +20021,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
       "profile": {
-        "factory": 74,
-        "building": 773
+        "factory": 48,
+        "building": 493
       },
       "failed": false,
       "errors": 0,
@@ -20082,9 +20082,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
       "profile": {
-        "factory": 74,
-        "building": 775,
-        "dependencies": 101
+        "factory": 48,
+        "building": 493,
+        "dependencies": 62
       },
       "failed": false,
       "errors": 0,
@@ -20117,8 +20117,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
       "profile": {
-        "factory": 75,
-        "building": 776
+        "factory": 48,
+        "building": 495
       },
       "failed": false,
       "errors": 0,
@@ -20196,9 +20196,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
       "profile": {
-        "factory": 56,
-        "building": 168,
-        "dependencies": 348
+        "factory": 36,
+        "building": 104,
+        "dependencies": 227
       },
       "failed": false,
       "errors": 0,
@@ -20240,9 +20240,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/components/todoInput.jsx",
       "profile": {
-        "factory": 628,
-        "building": 2,
-        "dependencies": 3
+        "factory": 403,
+        "building": 1,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -20275,8 +20275,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/style-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/css-loader/index.js?sourceMap!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/less-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/components/todoInput.less",
       "profile": {
-        "factory": 1,
-        "building": 142,
+        "factory": 0,
+        "building": 87,
         "dependencies": 1
       },
       "failed": false,
@@ -20310,8 +20310,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/css-loader/index.js?sourceMap!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/less-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/src/bootstrap.less",
       "profile": {
-        "factory": 91,
-        "building": 660
+        "factory": 55,
+        "building": 400
       },
       "failed": false,
       "errors": 0,
@@ -20380,8 +20380,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/style-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/css-loader/index.js?sourceMap!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/less-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/src/bootstrap.less",
       "profile": {
-        "factory": 189,
-        "building": 393
+        "factory": 132,
+        "building": 245
       },
       "failed": false,
       "errors": 0,
@@ -20450,9 +20450,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
       "profile": {
-        "factory": 58,
-        "building": 228,
-        "dependencies": 288
+        "factory": 37,
+        "building": 141,
+        "dependencies": 189
       },
       "failed": false,
       "errors": 0,
@@ -20485,9 +20485,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/components/todosList.jsx",
       "profile": {
-        "factory": 571,
-        "building": 266,
-        "dependencies": 6
+        "factory": 369,
+        "building": 164,
+        "dependencies": 5
       },
       "failed": false,
       "errors": 0,
@@ -20520,8 +20520,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/components/todoItem.jsx",
       "profile": {
-        "factory": 575,
-        "building": 224
+        "factory": 344,
+        "building": 150
       },
       "failed": false,
       "errors": 0,
@@ -20543,7 +20543,7 @@
       "id": 172,
       "identifier": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/actions.js",
       "name": "./src/todos/actions.js",
-      "size": 512,
+      "size": 519,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -20554,9 +20554,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
       "profile": {
-        "factory": 59,
-        "building": 265,
-        "dependencies": 0
+        "factory": 38,
+        "building": 160,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -20590,7 +20590,7 @@
           "loc": "17:15-35"
         }
       ],
-      "source": "\"use strict\";\n\nvar _interopRequire = require(\"babel-runtime/helpers/interop-require\")[\"default\"];\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar dispatcher = _interopRequire(require(\"../dispatcher\"));\n\nvar ACTION_CREATE = \"create\";\nexports.ACTION_CREATE = ACTION_CREATE;\nvar ACTION_DESTROY = \"destroy\";\n\nexports.ACTION_DESTROY = ACTION_DESTROY;\nexports[\"default\"] = {\n  create: function create(text) {\n    dispatcher.dispatch({\n      actionType: ACTION_CREATE,\n      text: text });\n  } };"
+      "source": "\"use strict\";\n\nvar _interopRequire = require(\"babel-runtime/helpers/interop-require\")[\"default\"];\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar dispatcher = _interopRequire(require(\"../dispatcher\"));\n\nvar ACTION_CREATE = \"create\";\nexports.ACTION_CREATE = ACTION_CREATE;\nvar ACTION_DESTROY = \"destroy\";\n\nexports.ACTION_DESTROY = ACTION_DESTROY;\nexports[\"default\"] = {\n  create: function create(text) {\n    dispatcher.dispatch({\n      actionType: ACTION_CREATE,\n      text: text + text });\n  } };"
     },
     {
       "id": 173,
@@ -20607,8 +20607,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/actions.js",
       "profile": {
-        "factory": 271,
-        "building": 376
+        "factory": 184,
+        "building": 233
       },
       "failed": false,
       "errors": 0,
@@ -20650,8 +20650,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/dispatcher.js",
       "profile": {
-        "factory": 679,
-        "building": 55
+        "factory": 413,
+        "building": 30
       },
       "failed": false,
       "errors": 0,
@@ -20684,8 +20684,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/flux/index.js",
       "profile": {
-        "factory": 262,
-        "building": 41
+        "factory": 177,
+        "building": 26
       },
       "failed": false,
       "errors": 0,
@@ -20718,7 +20718,7 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/flux/lib/Dispatcher.js",
       "profile": {
-        "factory": 313,
+        "factory": 212,
         "building": 29
       },
       "failed": false,
@@ -20752,9 +20752,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/components/todoItem.jsx",
       "profile": {
-        "factory": 18,
+        "factory": 12,
         "building": 2,
-        "dependencies": 2
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -20788,8 +20788,8 @@
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/style-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/css-loader/index.js?sourceMap!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/less-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/components/todoItem.less",
       "profile": {
         "factory": 1,
-        "building": 557,
-        "dependencies": 1
+        "building": 331,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -20822,9 +20822,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/components/todosList.jsx",
       "profile": {
-        "factory": 572,
-        "building": 2,
-        "dependencies": 2
+        "factory": 369,
+        "building": 1,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -20858,7 +20858,7 @@
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/style-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/css-loader/index.js?sourceMap!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/less-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/components/todosList.less",
       "profile": {
         "factory": 1,
-        "building": 272,
+        "building": 169,
         "dependencies": 0
       },
       "failed": false,
@@ -20892,9 +20892,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
       "profile": {
-        "factory": 59,
-        "building": 336,
-        "dependencies": 200
+        "factory": 38,
+        "building": 203,
+        "dependencies": 141
       },
       "failed": false,
       "errors": 0,
@@ -20927,8 +20927,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/store.js",
       "profile": {
-        "factory": 556,
-        "building": 211
+        "factory": 362,
+        "building": 133
       },
       "failed": false,
       "errors": 0,
@@ -20961,8 +20961,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/store.js",
       "profile": {
-        "factory": 558,
-        "building": 658
+        "factory": 363,
+        "building": 399
       },
       "failed": false,
       "errors": 0,
@@ -20995,8 +20995,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/lodash/index.js",
       "profile": {
-        "factory": 95,
-        "building": 297
+        "factory": 56,
+        "building": 199
       },
       "failed": false,
       "errors": 0,
@@ -21029,8 +21029,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
       "profile": {
-        "factory": 401,
-        "building": 7
+        "factory": 245,
+        "building": 6
       },
       "failed": false,
       "errors": 0,
@@ -21064,7 +21064,7 @@
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/style-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/css-loader/index.js?sourceMap!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/less-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/src/bootstrap.less",
       "profile": {
         "factory": 1,
-        "building": 473
+        "building": 310
       },
       "failed": false,
       "errors": 0,
@@ -21097,9 +21097,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/babel-loader/index.js?experimental&optional=runtime!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.jsx",
       "profile": {
-        "factory": 563,
-        "building": 3,
-        "dependencies": 32
+        "factory": 361,
+        "building": 2,
+        "dependencies": 21
       },
       "failed": false,
       "errors": 0,
@@ -21132,9 +21132,9 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/style-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/css-loader/index.js?sourceMap!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/less-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.less",
       "profile": {
-        "factory": 2,
-        "building": 379,
-        "dependencies": 26
+        "factory": 1,
+        "building": 236,
+        "dependencies": 17
       },
       "failed": false,
       "errors": 0,
@@ -21167,8 +21167,8 @@
       "assets": [],
       "issuer": "/home/travis/build/jackmarketon/webpack-todomvc/node_modules/css-loader/index.js?sourceMap!/home/travis/build/jackmarketon/webpack-todomvc/node_modules/less-loader/index.js!/home/travis/build/jackmarketon/webpack-todomvc/src/todos/app.less",
       "profile": {
-        "factory": 704,
-        "building": 56
+        "factory": 428,
+        "building": 31
       },
       "failed": false,
       "errors": 0,
