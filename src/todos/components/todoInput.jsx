@@ -32,7 +32,7 @@ export default class TodoInput extends React.Component {
   }
 
   render() {
-    var className = ('form-control heyo' + (this.props.className || '')).trim();
+    var className = ('form-control ' + (this.props.className || '')).trim();
 
     return (
       <div className="todo-input">
