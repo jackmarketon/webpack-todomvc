@@ -8,7 +8,7 @@ git config user.name "${USER_NAME}"
 git checkout ${TRAVIS_BRANCH}
 branch=$(git symbolic-ref --short -q HEAD)
 if ! [ "$branch" == "master" ]; then
-	rm ./stats.json
+	rm ./stats.json 2> /dev/null
 	npm run build
 	git add -A .
 	git status
