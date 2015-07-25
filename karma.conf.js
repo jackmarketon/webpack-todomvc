@@ -9,7 +9,7 @@ var webpackResolveConfig = require('./webpack/resolve.config');
 module.exports = function(config) {
   config.set({
     browsers: [
-      'Firefox'
+      'Chrome'
     ],
 
     frameworks: [
